@@ -1,6 +1,8 @@
 ## Deployed to
 https://nextjs-portfolio-steel.vercel.app/cv
 
+## UI Design in Figma
+https://www.figma.com/proto/F8X9M5KeoHSjX7XCTQ4UEd/Portfolio?node-id=3%3A0&scaling=min-zoom
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
