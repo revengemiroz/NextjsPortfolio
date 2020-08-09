@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+.container{
+    background-color: #CFE8E5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.CvContainer{
+    background-color: white;
+    max-width: 950px;
+    /* height: 1526px; */
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.30);
+    display: flex;
+    position: relative;
+}
+
+
+.leftside{
+    width: 82%;
+    /* border: 2px solid green; */
+    height: 100%;
+    padding: 50px 0 50px 50px;  
+}
+
+.author{
+    width: 100%;
+    margin: 30px 0;
+    /* border: 2px solid green; */
+}
+
+.author p{
+    /* border: 2px solid green; */
+    margin: 10px 0 0 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.author p p:first-child{
+    margin: 0 0 10px 0;
+    /* border: 2px solid green; */
+}
+
+.name{
+    font-size: 37px;
+    font-weight: 600;
+    color: #80CFC5;
+    letter-spacing: 2px;
+}
+
+.imgContainer{
+    width: 263px;
+    height: 319px;
+}
+
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+
+.aboutMe{
+      /* border: 2px solid green; */
+}
+
+.header{
+    color: #80CFC5;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.aboutMe p{
+    margin: 10px 10px 0 0;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.interests{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.collectionInterest{
+    width: 100%;
+    margin: 25px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.collectionInterest div{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collectionInterest div div{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid green; */
+}
+
+.collectionInterest div span{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin:10px 0 0 0;
+}
+
+.collectionInterest img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.iLike{
+    /* border: 2px solid green; */
+}
+
+.collection{
+    /* border: 2px solid green; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.collection div{
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection div div{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid green; */
+}
+
+.collection div span{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin:10px 0 0 0;
+}
+
+.collection img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.interests, .iLike, .contacts{
+    margin: 30px 0 0 0;
+}
+
+.contacts .list{
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0 0 0;
+}
+
+.list p{
+    margin-left: 25px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+    /* border: 2px solid green; */
+}
+
+.contacts img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+
+.hr {
+   margin-top: 50px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rightside{
+    width: 100%;
+    /* border: 2px solid green; */
+    height: 100%;
+    padding: 50px 20px 40px 40px;  
+}
+
+.education{
+    margin-top: 40px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+}
+
+.education >span{
+    font-size: 25px;
+    color: #80CFC5;
+    font-weight: 600;
+    letter-spacing: 3px;
+    
+}
+
+.edulist{
+    /* border: 2px solid green ; */
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.edulist p{
+    margin-left: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 500;    
+}
+
+.edulist li{
+    margin-top: 3px;
+}
+
+.education p p:not(:first-child){
+    margin-top: 10px;
+}
+
+.subTitle{
+    margin: 10px 0;
+    /* border: 2px solid green; */
+    color: #80CFC5;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.experience{
+    margin-top: 40px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+}
+
+.experience >span{
+    font-size: 25px;
+    color: #80CFC5;
+    font-weight: 600;
+    letter-spacing: 3px; 
+}
+
+.strong{
+    font-weight: 900;
+}
+
+.end{
+    margin-top: 40px;
+}
+
+
+@media (max-width:830px) {
+
+    .container{
+        padding: 2rem 1.2rem;
+    }
+
+    .CvContainer{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .leftside{
+        width: 100%;
+        padding: 30px 20px 30px 20px;  
+    }
+
+    .contacts{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid green;
+        justify-content: center;
+    }
+
+    .rightside{
+        margin-top: -30px;
+        width: 100%;
+        padding: 30px 20px 30px 20px;  
+    }
+
+    .imgContainer{
+        width: 100%;
+        height: 50%;
+    }
+
+    .name{
+        font-size: 36px;
+    }
+    .hr{
+        display: none;
+    }
+
+    
+    .end{
+        width: 100%;
+        height: 50px;
+        display: block;
+        border: 2px solid green;
+        text-align: center;
+    }
+
+    .end img{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+}
