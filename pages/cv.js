@@ -1,6 +1,5 @@
 import styles from '../styles/CV.module.css'
 import ProfilePic from "../public/profilePic.gif";
-import Facebook from "../assets/facebook.png";
 import Github from "../assets/github.png";
 
 import Email from "../assets/email.png";
@@ -17,6 +16,7 @@ import Figma from "../assets/figma.jpg";
 import Git from "../assets/git.png";
 
 import Line from "../assets/Line.png";
+import Vertical from "../assets/vertical.png";
 import Ellipse from "../assets/ellipse.svg";
 
 import Experience from "../assets/Group 1.svg";
@@ -175,14 +175,6 @@ function cv(props) {
                     <div className={styles.contacts}>
                         <span className={styles.header}>CONTACTS</span>
 
-                        <div className={styles.list}>
-                            <a href='https://www.youtube.com'>
-                                <div className={styles.icons}>
-                                    <img src={Facebook} />
-                                </div>
-                            </a>
-                            <p>facebook.com/hotdude.miroj</p>
-                        </div>
 
                         <div className={styles.list}>
                             <a href='https://www.youtube.com'>
@@ -204,11 +196,17 @@ function cv(props) {
                     </div>
 
                 </div>
-                <div className={styles.hr}>
 
+                {/* horizontal line */}
+                <div className={styles.hr}>
                     <img src={Line}></img>
                 </div>
 
+                <div className={styles.vertical}>
+                    <img src={Vertical}></img>
+                </div>
+
+                {/* right side */}
                 <div className={styles.rightside}>
 
                     <div className={styles.topexperience}>
@@ -227,7 +225,7 @@ function cv(props) {
                             </svg>
 
                             <p>
-                                <p><span className={styles.strong}>SLC</span>  ( GRADE 10 ) &nbsp;|&nbsp;  ~ DEC, 2011 A.D</p>
+                                <p><span className={styles.strong}>SLC</span>  ( GRADE 10 ) &nbsp;|&nbsp;  ~ DEC, 2011</p>
 
                                 <p>Graded English Medium School (GEMS)</p>
                             </p>
@@ -240,7 +238,7 @@ function cv(props) {
                             </svg>
 
                             <p>
-                                <p><span className={styles.strong}>Intermediate</span>  ( + 2 ) &nbsp;|&nbsp;  ~ DEC, 2013 A.D</p>
+                                <p><span className={styles.strong}>Intermediate</span>  ( + 2 ) &nbsp;|&nbsp;  ~ DEC, 2013</p>
 
                                 <p>Prasadi Academy, HSEB</p>
                             </p>
@@ -253,7 +251,7 @@ function cv(props) {
                             </svg>
 
                             <p>
-                                <p><span className={styles.strong}>Bachelor's Degree</span> |  ~ FEB, 2019 A.D</p>
+                                <p><span className={styles.strong}>Bachelor's Degree</span> |  ~ FEB, 2019</p>
                                 <p style={{ maxWidth: '380px' }}>Nepal College of Information Technology, B.E in Software Englineering</p>
                             </p>
                         </div>
@@ -267,11 +265,9 @@ function cv(props) {
                         <span>WORK EXPERIENCE</span>
 
                         <div className={styles.edulist}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <circle cx="10" cy="10" r="8.5" fill="white" stroke="black" stroke-width="3" />
-                            </svg>
+                            <img src={Ellipse}></img>
 
-                            <p>
+                            <p style={{ marginBottom: '5px' }}>
                                 <p><span className={styles.strong}>QUALITY ANALYST</span> | OCT, 2019 - DEC, 2019</p>
                                 <p className={styles.subTitle}>TULIPS TECHNOLOGY</p>
 
@@ -295,11 +291,9 @@ function cv(props) {
 
 
                         <div className={styles.edulist}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <circle cx="10" cy="10" r="8.5" fill="white" stroke="black" stroke-width="3" />
-                            </svg>
+                            <img src={Ellipse}></img>
 
-                            <p>
+                            <p style={{ marginBottom: '5px' }}>
                                 <p><span className={styles.strong}>SUPERVISOR</span> | JUN, 2019 - JUL, 2019</p>
                                 <p className={styles.subTitle}>TOP ENTERPRISE</p>
 
@@ -320,11 +314,9 @@ function cv(props) {
                         </div>
 
                         <div className={styles.edulist}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <circle cx="10" cy="10" r="8.5" fill="white" stroke="black" stroke-width="3" />
-                            </svg>
+                            <img src={Ellipse}></img>
 
-                            <p>
+                            <p style={{ marginBottom: '5px' }}>
                                 <p><span className={styles.strong}>QUALITY CHECKER</span> | JAN, 2019 - MAR, 2019</p>
                                 <p className={styles.subTitle}>CLOUD FACTORY</p>
 

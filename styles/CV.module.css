@@ -161,6 +161,7 @@
     letter-spacing: 1px;
     font-weight: 500;
     margin:15px 0 0 0;
+    text-align: center;
 }
 
 .collection img{
@@ -175,7 +176,7 @@
 
 /* contacts */
 .contacts .list{
-    /* border: 2px solid green; */
+    word-break: break-all;
     width: 100%;
     display: flex;
     align-items: center;
@@ -184,7 +185,7 @@
 }
 
 .list p{
-    margin-left: 25px;
+    margin-left: 35px;
     font-size: 15px;
     letter-spacing: 2px;
     font-weight: 500;
@@ -208,6 +209,9 @@
    
 } 
 
+.vertical{
+display: none;
+}
 
 
 
@@ -222,11 +226,20 @@
 
 .rightside{
     width: 100%;
-    /* border: 2px solid green; */
-    height: 100%;
     padding: 0px 0px 0px 40px; 
     overflow: hidden;
     word-wrap: break-word; 
+}
+
+.topexperience{
+    width: 100%;
+    height: 50px;
+}
+
+.topexperience img{
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .education{
@@ -236,22 +249,22 @@
     flex-direction: column;
 }
 
-.education >span{
+.education >span, .experience >span{
     font-size: 25px;
     color: #80CFC5;
     font-weight: 600;
     letter-spacing: 3px;
-    
 }
 
 .edulist{
     /* border: 2px solid green ; */
     display: flex;
     align-items: flex-start;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .edulist p{
+    
     margin-left: 10px;
     letter-spacing: 2px;
     font-size: 15px;
@@ -259,33 +272,28 @@
 }
 
 .edulist li{
-    margin-top: 5px;
+    margin-top: 8px;
+    word-break: break-all;
+    
 }
 
 .education p p:not(:first-child){
-    margin-top: 10px;
-}
-
-.subTitle{
-    margin: 10px 0;
-    /* border: 2px solid green; */
-    color: #80CFC5;
-    font-size: 15px;
-    font-weight: 600;
+    margin-top: 15px;
+    
 }
 
 .experience{
-    margin-top: 40px;
-    /* border: 2px solid green; */
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
 }
 
-.experience >span{
-    font-size: 25px;
+.subTitle{
+    margin: 10px 0 10px 0;
+    padding: 0 10px;
     color: #80CFC5;
+    font-size: 15px;
     font-weight: 600;
-    letter-spacing: 3px; 
 }
 
 .strong{
@@ -293,11 +301,17 @@
 }
 
 
-
 .end{
     margin-top: 40px;
+    width: 100%;
+    height: 50px;
 }
 
+.end img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 
 
 @media (max-width:830px) {
@@ -331,11 +345,30 @@
     }
 
     .name{
-        font-size: 36px;
+        font-size: 33px;
+    }
+
+    .author >p{
+        font-size: 16px;
+    }
+
+    .aboutMe >p{
+        font-size: 15px;
     }
 
     .hr{
         display: none;
+    }
+
+    .vertical{
+        display: block;
+        margin: 20px 10px 50px 10px;
+    }
+
+    .vertical img{
+        width: 100%;
+        height: 100%;
+        display: block;
     }
 
     .end{
@@ -364,6 +397,9 @@
         display: block;
     }
 
+    .edulist p{
+        font-size: 15px;
+    }
 }
 
 
@@ -377,7 +413,7 @@
     width: 60px;
     height: 100%;
     display: block;
-    margin-left: -50px;
+    margin-left: 0px;
     cursor: pointer;
 }
 
