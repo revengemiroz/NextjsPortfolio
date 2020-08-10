@@ -299,7 +299,7 @@
 }
 
 
-/* 
+
 @media (max-width:830px) {
 
     .container{
@@ -311,6 +311,7 @@
     .CvContainer{
         display: flex;
         flex-direction:column;
+        padding: 7px ;
     }
 
     .leftside{
@@ -363,7 +364,7 @@
         display: block;
     }
 
-} */
+}
 
 
 .link{
