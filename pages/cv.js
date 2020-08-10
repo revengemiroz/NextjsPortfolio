@@ -14,6 +14,7 @@ import Js from "../assets/javascript.png";
 import ReactJs from "../assets/react.png";
 import Mongodb from "../assets/mongodb.jpg";
 import Figma from "../assets/figma.jpg";
+import Git from "../assets/git.png";
 
 import Line from "../assets/Line.png";
 import Ellipse from "../assets/ellipse.svg";
@@ -23,13 +24,20 @@ import End from "../assets/Group 2.svg";
 
 import Link from 'next/link';
 
+import Pdf from "../assets/pdf.png";
+
 
 function cv(props) {
     return (
 
-
-
         <div className={styles.container}>
+
+            <div className={styles.link}>
+                <Link href='/cv.pdf' target='_self' download>
+                    <img src={Pdf}></img>
+                </Link>
+            </div>
+
             <div className={styles.CvContainer}>
                 <div className={styles.leftside}>
 
@@ -42,7 +50,6 @@ function cv(props) {
                         <span className={styles.name}>MIROZ DEVKOTA</span>
                         <p>
                             <p>Web Developer, Javascript Stack</p>
-
                             <p>MERN Stack, GraphQL</p>
                         </p>
                     </div>
@@ -107,6 +114,30 @@ function cv(props) {
                             </div>
 
                         </div>
+
+                        <div className={styles.collectionInterest}>
+                            <div>
+                                <div>
+                                    <img src={Git}></img>
+                                </div>
+                                <span>Github</span>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <img src={Git}></img>
+                                </div>
+                                <span>Github</span>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <img src={Git}></img>
+                                </div>
+                                <span>Github</span>
+                            </div>
+                        </div>
+
                     </div>
 
 
@@ -174,6 +205,7 @@ function cv(props) {
 
                 </div>
                 <div className={styles.hr}>
+
                     <img src={Line}></img>
                 </div>
 
@@ -348,9 +380,7 @@ function cv(props) {
                     <div className={styles.end}>
                         <img src={End}></img>
                     </div>
-                    <Link className={styles.link} href='/cv.pdf' target='_self' download>
-                        <a className={styles.links}>Click for CV.</a>
-                    </Link>
+
                 </div>
             </div>
         </div>
