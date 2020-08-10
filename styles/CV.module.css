@@ -5,44 +5,45 @@
     background-color: #CFE8E5;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10rem 2rem;
+    padding: 5rem 20px;
     font-family: 'Roboto', sans-serif;
 }
 
 .CvContainer{
     background-color: white;
+    width: 100%;
     max-width: 950px;
-    /* height: 1526px; */
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.30);
     display: flex;
+    margin-top: 60px;
+    padding: 50px 50px 50px 50px;
 }
-
 
 .leftside{
     width: 82%;
     /* border: 2px solid green; */
-    height: 100%;
-    padding: 50px 0 50px 50px;  
+    padding: 0px 40px 0px 0px;  
 }
 
+/* profilepic */
+.imgContainer{
+    max-width: 263px;
+    max-height: 319px;
+}
+
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* name */
 .author{
     width: 100%;
-    margin: 30px 0;
-    /* border: 2px solid green; */
-}
-
-.author p{
-    /* border: 2px solid green; */
-    margin: 10px 0 0 0;
-    font-family: 'Poppins',sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.author p p:first-child{
-    margin: 0 0 10px 0;
+    margin: 50px 0 30px 0;
     /* border: 2px solid green; */
 }
 
@@ -53,19 +54,19 @@
     letter-spacing: 2px;
 }
 
-.imgContainer{
-    width: 263px;
-    height: 319px;
+.author >p{
+    /* border: 2px solid green; */
+    margin: 15px 0 0 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.imgContainer img{
-    width: 100%;
-    height: 100%;
-    display: block;
+.author p p:first-child{
+    margin: 0 0 5px 0;
 }
 
-
-
+/* about me */
 .aboutMe{
       /* border: 2px solid green; */
 }
@@ -78,28 +79,29 @@
 }
 
 .aboutMe p{
-    margin: 10px 10px 0 0;
+    margin: 15px 0 0 0;
     font-size: 17px;
     font-weight: 400;
     letter-spacing: 2px;
-    line-height: 20px;
+    line-height: 22px;
 }
 
+/*interests */
 .interests{
     display: flex;
     flex-wrap: wrap;
+    /* border: 2px solid green; */
 }
 
 .collectionInterest{
+    /* border: 2px solid green; */
     width: 100%;
-    margin: 25px 0 0 0;
+    margin: 20px 0 0 0;
     display: flex;
     flex-direction: row;
-    
 }
 
 .collectionInterest div{
-    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -117,7 +119,7 @@
     font-size: 15px;
     letter-spacing: 1px;
     font-weight: 500;
-    margin:10px 0 0 0;
+    margin:15px 0 0 0;
 }
 
 .collectionInterest img{
@@ -126,13 +128,14 @@
     display: block;
 }
 
+/* like */
 .iLike{
     /* border: 2px solid green; */
 }
 
 .collection{
     /* border: 2px solid green; */
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     flex-direction: row;
 }
@@ -145,19 +148,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1px;
 }
 
 .collection div div{
     width: 50px;
     height: 50px;
-    /* border: 2px solid green; */
 }
 
 .collection div span{
     font-size: 15px;
     letter-spacing: 1px;
     font-weight: 500;
-    margin:10px 0 0 0;
+    margin:15px 0 0 0;
 }
 
 .collection img{
@@ -167,9 +170,10 @@
 }
 
 .interests, .iLike, .contacts{
-    margin: 30px 0 0 0;
+    margin: 25px 0 0 0;
 }
 
+/* contacts */
 .contacts .list{
     /* border: 2px solid green; */
     width: 100%;
@@ -201,7 +205,7 @@
 
 
 .hr {
-   margin-top: 50px;
+   
 } 
 
 
@@ -220,7 +224,9 @@
     width: 100%;
     /* border: 2px solid green; */
     height: 100%;
-    padding: 50px 20px 40px 40px;  
+    padding: 0px 0px 0px 40px; 
+    overflow: hidden;
+    word-wrap: break-word; 
 }
 
 .education{
@@ -242,7 +248,7 @@
     /* border: 2px solid green ; */
     display: flex;
     align-items: flex-start;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .edulist p{
@@ -253,7 +259,7 @@
 }
 
 .edulist li{
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 .education p p:not(:first-child){
@@ -293,7 +299,7 @@
 }
 
 
-
+/* 
 @media (max-width:830px) {
 
     .container{
@@ -311,8 +317,6 @@
         width: 100%;
         padding: 30px 20px 30px 20px;  
     }
-
-  
 
     .rightside{
         margin-top: -30px;
@@ -359,20 +363,20 @@
         display: block;
     }
 
-}
+} */
 
 
 .link{
-    
-}
-.links{
-    width: 100%;
+    margin-top: 20px;
     display: flex;
-    margin-top: 15px;
-    margin-left: -30px;
     justify-content: center;
-    text-align: center;
-    color:#2f2f2f;
-    font-weight: 600;
-    letter-spacing: 2px;
-  }
+}
+
+.link img{
+    width: 60px;
+    height: 100%;
+    display: block;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
