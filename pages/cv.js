@@ -177,7 +177,7 @@ function cv(props) {
 
 
                         <div className={styles.list}>
-                            <a href='https://www.youtube.com'>
+                            <a href='https://github.com/revengemiroz' target='_blank'>
                                 <div className={styles.icons}>
                                     <img src={Github} />
                                 </div>
@@ -186,7 +186,7 @@ function cv(props) {
                         </div>
 
                         <div className={styles.list}>
-                            <a href='https://www.youtube.com'>
+                            <a href='https://mail.google.com/mail/?view=cm&fs=1&to=miroz.devkota@gmail.com' target='_blank'>
                                 <div className={styles.icons}>
                                     <img src={Email} />
                                 </div>

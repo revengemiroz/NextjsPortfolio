@@ -330,7 +330,8 @@ display: none;
 
     .leftside{
         width: 100%;
-        padding: 30px 20px 30px 20px;  
+        padding: 0px 20px 30px 20px;
+         
     }
 
     .rightside{
@@ -342,12 +343,14 @@ display: none;
     .imgContainer{
        width: 100%;
        height: 100%;
+       display: none; 
     }
     
     .imgContainer img{
         width: 100%;
         height: 100%;
         display: block;
+        display: none;
     }
 
     .name{
@@ -358,8 +361,28 @@ display: none;
         font-size: 16px;
     }
 
+    .aboutMe{
+        display: none; 
+    }
+
+    .iLike{
+        display: none; 
+    }
+
     .aboutMe >p{
         font-size: 15px;
+        
+    }
+
+    .contacts{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .contacts .list{
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     .hr{
@@ -369,6 +392,7 @@ display: none;
     .vertical{
         display: block;
         margin: 20px 10px 50px 10px;
+        display: none;
     }
 
     .vertical img{
@@ -391,6 +415,7 @@ display: none;
     }
 
     .topexperience{
+        margin-top: 40px;
         width: 100%;
         height: 50px;
         display: block;
