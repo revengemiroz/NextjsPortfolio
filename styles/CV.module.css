@@ -30,8 +30,8 @@
 
 /* profilepic */
 .imgContainer{
-    max-width: 263px;
-    max-height: 319px;
+    min-width: 263px;
+    min-height: 319px;
 }
 
 .imgContainer img{
@@ -340,8 +340,15 @@ display: none;
     }
 
     .imgContainer{
+        border: 2px solid green;
+       width: 100%;
+      
+    }
+    
+    .imgContainer img{
         width: 100%;
-        height: 50%;
+        height: 100%;
+        display: block;
     }
 
     .name{
