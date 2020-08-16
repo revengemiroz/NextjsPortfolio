@@ -1,0 +1,46 @@
+.container{
+    
+    height: 81.9vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin: -20px 100px 100px 100px;
+    
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.description{
+    font-size: 22px;
+    margin: 0 100px;
+}
+
+.description a{
+    text-decoration: underline #d30320;
+    cursor: pointer;
+}
+
+
+.description a:hover{
+    color: #d30320;
+    text-decoration: underline #d30320;
+    transition: color 0.3s linear ;
+}
+
+@media (max-width:500px){
+
+    .title{
+        margin: -20px 50px 100px 50px;
+                
+    }
+    
+    .description{
+        margin: 0 50px;
+    }
+}

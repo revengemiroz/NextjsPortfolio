@@ -1,0 +1,107 @@
+/* Typography */
+body {
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-kerning: normal;
+    -moz-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+    -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+    -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+    font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+    line-height: 1.618;
+    color: var(--color-black);
+  }
+  
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    line-height: 1.1;
+    text-rendering: optimizeLegibility;
+    word-wrap: break-word;
+    color: inherit;
+  
+  
+  }
+  
+  h1,
+  .h1 {
+    font-size: responsive 52px 62px;
+    font-weight: 900;
+  }
+  
+  h2,
+  .h2 {
+    font-size: responsive 38px 46px;
+    /* font-weight: 800; */
+  }
+  
+  h3,
+  .h3 {
+    font-size: responsive 32px 38px;
+    /* font-weight: 700; */
+  }
+  
+  h4,
+  .h4 {
+    font-size: responsive 28px 32px;
+    /* font-weight: 600; */
+  }
+  
+  h5,
+  .h5 {
+    font-size: responsive 26px 28px;
+    /* font-weight: 500; */
+  }
+  
+  h6,
+  .h6 {
+    font-size: responsive 15px 16px;
+    /* font-weight: 500; */
+  }
+  
+  p {
+    margin: 0;
+    font-size: responsive 18px 21px;
+  }
+  
+  p + p {
+    margin-top: 16px;
+  }
+  
+  p a {
+    text-decoration-color: var(--color-brand);
+    color: #111;
+    transition: var(--tr-all);
+  }
+  
+  p a:hover {
+    color: #111;
+    text-decoration-color: #111;
+  }
+  
+  .link--red {
+    text-decoration-color: var(--color-brand);
+    color: #111;
+    transition: var(--tr-all);
+  }
+  
+  .link--red:hover {
+    color: #111;
+    text-decoration-color: #111;
+  }
+  
+  .text--center {
+    text-align: center;
+  }
