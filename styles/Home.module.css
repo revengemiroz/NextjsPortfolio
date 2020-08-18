@@ -2,12 +2,16 @@
   display: flex;
   align-items: center;
   flex-flow: column wrap;
-  min-height: 100vh;
+  min-height: 82vh;
+  
 }
 
+.profilePic{
+  padding: 150px 50px 0 50px;
+}
 
 .name{
-  padding: 350px 50px 0 50px;
+  padding: 100px 50px 0 50px;
   text-align: center;
   font-size: clamp(1rem, 10vw, 2rem); 
   width: 100%;
