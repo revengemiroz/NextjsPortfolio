@@ -44,7 +44,7 @@ function Header(props) {
 
                     <li>
                         <span onClick={() => toggleMobileMenu(!isMobileMenuVisible)}>
-                            <Link href="/">
+                            <Link href="/blog">
                                 <a>Projects</a>
                             </Link>
                         </span>
@@ -60,7 +60,7 @@ function Header(props) {
 
                     <li>
                         <span>
-                            <Link href="/">
+                            <Link href="/blog">
                                 <a>Blog</a>
                             </Link>
                         </span>

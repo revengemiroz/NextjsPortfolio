@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container p{
+    
+    width: 100%;
+    text-align: center;
+    font-size: clamp(1rem, 10vw, 2rem); 
+}
