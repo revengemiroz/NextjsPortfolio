@@ -15,19 +15,19 @@ function Footer(props) {
             <nav>
                 <ul>
                     <li>
-                        <a href='https://www.instagram.com/chiyaaaaa/?hl=en' target='_blank'>
+                        <a href='https://twitter.com/DevkotaMiroz' target='_blank'>
                             <span className='fab fa-twitter'></span>
                         </a>
                     </li>
 
                     <li>
-                        <a href='https://www.instagram.com/chiyaaaaa/?hl=en' target='_blank'>
+                        <a href='https://www.facebook.com/hotdude.miroj/' target='_blank'>
                             <span className='fab fa-facebook'></span>
                         </a>
                     </li>
 
                     <li>
-                        <a href='https://www.instagram.com/chiyaaaaa/?hl=en' rel="noopener noreferrer" target='_blank'>
+                        <a href='https://www.instagram.com/mirozuzamaki/?hl=en' rel="noopener noreferrer" target='_blank'>
                             <span className='fab fa-instagram'></span>
                         </a>
                     </li>
@@ -39,13 +39,13 @@ function Footer(props) {
                     </li>
 
                     <li>
-                        <a href='https://www.instagram.com/chiyaaaaa/?hl=en' target='_blank'>
+                        <a href='https://github.com/revengemiroz' target='_blank'>
                             <span className='fab fa-github'></span>
                         </a>
                     </li>
 
                     <li>
-                        <a href='https://www.instagram.com/chiyaaaaa/?hl=en' target='_blank'>
+                        <a href='https://codepen.io/miroz-devkota' target='_blank'>
                             <span className='fab fa-codepen'></span>
                         </a>
                     </li>
