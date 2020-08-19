@@ -25,6 +25,10 @@
     color: #111111;
 }
 
+.header .active{
+    color: #d30320;
+}
+
 .header a:hover{
     color: #d30320;
     transition: color 0.3s linear;
@@ -42,3 +46,4 @@
 
 
 }
+

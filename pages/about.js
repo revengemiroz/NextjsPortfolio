@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import ReactHover, { Trigger, Hover } from 'react-hover';
 
 import Header from "../components/Header/Header";
@@ -12,14 +12,23 @@ import Fifa from '../assets/fifa.png';
 
 import styles from '../styles/pages/about.module.css';
 
-
-const optionsCursorTrueWithMargin = {
+let optionsCursorTrueWithMargin = {
     followCursor: true,
-    shiftX: 70,
+    shiftX: 50,
     shiftY: -40
 }
 
+const generateClassName = () => {
+    const windowGlobal = typeof window !== 'undefined' && window
+
+}
+
+
+
+generateClassName()
+
 function about(props) {
+
     return (
         <Layout title='About | Miroz Devkota'>
             <Header />

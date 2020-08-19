@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import Link from 'next/link'
+import { useRouter } from 'next/router';
 
 function Header(props) {
     const [isMobileMenuVisible, toggleMobileMenu] = React.useState(false)
+
+    const router = useRouter()
 
     const generateClassName = () => {
         const windowGlobal = typeof window !== 'undefined' && window
@@ -28,16 +31,11 @@ function Header(props) {
         <header className='header'>
             <nav className='nav-main'>
                 <ul className={generateClassName()}>
-                    {/* <li>
-                        <button className="nav__toggler nav__toggler--close" onClick={() => toggleMobileMenu(!isMobileMenuVisible)}>
-                            <span>Menu</span>
-                        </button>
-                    </li> */}
 
                     <li>
                         <span>
                             <Link href="/">
-                                <a>Home</a>
+                                <a className={router.pathname == "/" ? 'active' : ''}>Home</a>
                             </Link>
                         </span>
                     </li>
@@ -45,7 +43,7 @@ function Header(props) {
                     <li>
                         <span onClick={() => toggleMobileMenu(!isMobileMenuVisible)}>
                             <Link href="/blog">
-                                <a>Projects</a>
+                                <a className={router.pathname == "/projects" ? 'active' : ''}>Projects</a>
                             </Link>
                         </span>
                     </li>
@@ -61,7 +59,7 @@ function Header(props) {
                     <li>
                         <span>
                             <Link href="/blog">
-                                <a>Blog</a>
+                                <a className={router.pathname == "/blog" ? 'active' : ''}>Blog</a>
                             </Link>
                         </span>
                     </li>
@@ -69,7 +67,7 @@ function Header(props) {
                     <li>
                         <span onClick={() => toggleMobileMenu(!isMobileMenuVisible)}>
                             <Link href="/about">
-                                <a>About Me</a>
+                                <a className={router.pathname == "/about" ? 'active' : ''}>About Me</a>
                             </Link>
                         </span>
                     </li>
@@ -77,15 +75,12 @@ function Header(props) {
                     <li>
                         <span onClick={() => toggleMobileMenu(!isMobileMenuVisible)}>
                             <Link href="/contact">
-                                <a>Contact</a>
+                                <a className={router.pathname == "/contact" ? 'active' : ''}>Contact</a>
                             </Link>
                         </span>
                     </li>
                 </ul>
 
-                {/* <button className="nav__toggler nav__toggler--toggle" onClick={() => toggleMobileMenu(!isMobileMenuVisible)}>
-                    <span>Nav</span>
-                </button> */}
             </nav>
         </header>
     );
