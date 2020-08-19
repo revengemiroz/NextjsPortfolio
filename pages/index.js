@@ -21,9 +21,6 @@ export default function Home() {
 
         <p className={styles.description}>Web designer and developer from <a href='https://visitnepal2020.com/'>Nepal.</a></p>
 
-
-
-
       </div>
 
       <Footer />

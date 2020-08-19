@@ -24,7 +24,7 @@ function about(props) {
         <Layout title='About | Miroz Devkota'>
             <Header />
 
-            <div className={styles.container}>
+            <div className={styles.containers}>
                 <p className={styles.about}>
                     About
 

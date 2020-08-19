@@ -1,17 +1,15 @@
 .container{
+  flex: 1;
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  min-height: 82vh;
-  
-}
-
-.profilePic{
-  padding: 150px 50px 0 50px;
+  padding: 10px;
+  height: 100%;
 }
 
 .name{
-  padding: 100px 50px 0 50px;
+  padding: 80px 50px 0 50px;
   text-align: center;
   font-size: clamp(1rem, 10vw, 2rem); 
   width: 100%;
@@ -60,4 +58,11 @@
   visibility: visible;
   transform: scaleX(1);
   
+}
+
+@media (max-width:500px){
+
+  .name{
+    padding: 40px 0 0 0;
+  }
 }

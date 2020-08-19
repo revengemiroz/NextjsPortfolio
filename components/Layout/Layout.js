@@ -1,5 +1,9 @@
 import Head from 'next/head';
-import Footer from '../Footer/Footer';
+
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+
+import styles from "../../styles/components/_layout.module.css";
 
 function Layout({ children, page, title }) {
     return (
@@ -11,8 +15,10 @@ function Layout({ children, page, title }) {
             </Head>}
 
             <div>
-                <main>
+                <main className={styles.container}>
+
                     {children}
+
                 </main>
             </div>
         </div>

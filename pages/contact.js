@@ -10,14 +10,13 @@ import styles from '../styles/pages/contact.module.css'
 function contact(props) {
     return (
         <Layout title='Contact | Miroz Devkota'>
-            <Header></Header>
-
+            <Header />
             <div className={styles.container}>
                 <p className={styles.title}>Let's get in touch.</p>
 
                 <p className={styles.description}>Do you have some project you want to realize? Please, contact me via <a href='mailto:miroz.devkota@gmail.com'>email</a>.</p>
             </div>
-            <Footer></Footer>
+            <Footer />
         </Layout>
 
     );

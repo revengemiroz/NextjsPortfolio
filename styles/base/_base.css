@@ -57,12 +57,3 @@ html {
     border: none;
   }
   
-  .page-wrapper {
-    display: flex;
-    flex-flow: column wrap;
-    min-height: 100vh;
-  }
-  
-  .page-content {
-    flex: 1; /* Make sure footer is always on the bottom. */
-  }

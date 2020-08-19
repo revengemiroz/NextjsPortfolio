@@ -10,7 +10,7 @@ function blog(props) {
     return (
         <Layout title='Blog | Miroz Devkota'>
             <Header></Header>
-            <div className={styles.container}>
+            <div className={styles.containers}>
                 <p>It's under construction</p>
 
             </div>
