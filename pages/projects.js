@@ -12,7 +12,7 @@ import Footer from "../components/Footer/Footer";
 
 import HTML from "../public/project/html.png";
 import KNOT from "../public/project/four.png";
-
+import Mern from "../public/project/mern.png";
 
 import styles from "../styles/pages/projects.module.css";
 
@@ -68,7 +68,7 @@ function projects(props) {
                             <Zoom>
                                 <img
                                     alt='MERN Stack'
-                                    src='https://cdn.discordapp.com/attachments/736210763315675158/745973290476109854/unknown.png'
+                                    src={Mern}
                                     className={styles.project__thumbnail}
                                 ></img>
                             </Zoom>
