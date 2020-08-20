@@ -8,6 +8,15 @@
             {
                 "ssr": true
             }
+        ],
+        [
+            "inline-import-data-uri",
+            {
+                "extensions": [
+                    ".html",
+                    ".jpg"
+                ]
+            }
         ]
     ]
 }
