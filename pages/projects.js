@@ -11,6 +11,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
 import HTML from "../public/project/html.png";
+import Knots from "../public/project/knots.jpg";
 
 import styles from "../styles/pages/projects.module.css";
 
@@ -85,7 +86,7 @@ function projects(props) {
                             <Zoom>
                                 <img
                                     alt='knots'
-                                    src='https://cdn.discordapp.com/attachments/736210763315675158/745963953259151390/unknown.png'
+                                    src={Knots}
                                     className={styles.project__thumbnail}
                                 ></img>
                             </Zoom>
