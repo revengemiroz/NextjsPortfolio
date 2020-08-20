@@ -5,10 +5,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    object-fit: cover;
+    padding: 0 20px;
+    
 }
 
 .containers p{
     text-align: center;
     width: 100%;
+    max-width: 600px;
     font-size: clamp(1rem, 10vw, 2rem); 
+    margin: 10px 0;
+    line-height: 30px;
+    
+}
+
+.imgContainer{
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+    display: block;
 }

@@ -1,8 +1,6 @@
 import React from 'react';
 import Zoom from 'react-medium-image-zoom';
 
-
-
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/regular';
@@ -12,8 +10,7 @@ import Layout from "../components/Layout/Layout";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
-
-
+import HTML from "../public/project/html.png";
 
 import styles from "../styles/pages/projects.module.css";
 
@@ -30,14 +27,14 @@ function projects(props) {
                 <p className={styles.commingSoon}>
                     Below are some of my Projects that i have done on the
                     road to being a good Web devleoper. Most of my stacks
-                    include Javascript Framework like React Js, Next JS, Node Js, Express Js, PostgreSQL, MongoDB.
+                    include Javascript Framework like <a href='https://reactjs.org/' target='_blank'>React Js</a>, <a href='https://nextjs.org/' target='_blank'>Next Js</a>, <a href='https://nodejs.org/en/' target='_blank'>Node Js</a>, <a href='https://expressjs.com/' target='_blank'>Express Js</a>, <a href='https://www.postgresql.org/' target='_blank'>PostgreSQL</a>, <a href='https://www.mongodb.com/' target='_blank'>MongoDB</a>.
                 </p>
 
                 <div className={styles.projectCollection}>
                     <div className={styles.project}>
                         <div className={styles.imgContainer}>
                             <Zoom>
-                                <img src='https://cdn.discordapp.com/attachments/736210763315675158/745943701129396274/unknown.png'></img>
+                                <img src={HTML}></img>
                             </Zoom>
                         </div>
                         <div className={styles.titleContainer}>
