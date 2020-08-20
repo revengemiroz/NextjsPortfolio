@@ -11,7 +11,8 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
 import HTML from "../public/project/html.png";
-import Knot from "../static/knot.jpg";
+import KNOT from "../static/knot.JPG";
+
 
 import styles from "../styles/pages/projects.module.css";
 
@@ -86,7 +87,7 @@ function projects(props) {
                             <Zoom>
                                 <img
                                     alt='knots'
-                                    src={Knot}
+                                    src={KNOT}
                                     className={styles.project__thumbnail}
                                 ></img>
                             </Zoom>
