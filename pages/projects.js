@@ -11,7 +11,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
 import HTML from "../public/project/html.png";
-import KNOT from "../static/knot.JPG";
+import KNOT from "../public/project/Knot.png";
 
 
 import styles from "../styles/pages/projects.module.css";
