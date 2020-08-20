@@ -52,7 +52,7 @@ function projects(props) {
                     <div className={styles.project}>
                         <div className={styles.imgContainer}>
                             <Zoom>
-                                <img src='https://cdn.discordapp.com/attachments/736210763315675158/745946782978277406/unknown.png'></img>
+                                <img src='https://cdn.discordapp.com/attachments/736210763315675158/745963481768919050/unknown.png'></img>
                             </Zoom>
                         </div>
                         <div className={styles.titleContainer}>
@@ -69,7 +69,7 @@ function projects(props) {
                             <Zoom>
                                 <img
                                     alt='MERN Stack'
-                                    src='https://cdn.discordapp.com/attachments/736210763315675158/745946782978277406/unknown.png'
+                                    src='https://cdn.discordapp.com/attachments/736210763315675158/745973290476109854/unknown.png'
                                     className={styles.project__thumbnail}
                                 ></img>
                             </Zoom>
@@ -88,7 +88,7 @@ function projects(props) {
                             <Zoom>
                                 <img
                                     alt='knots'
-                                    src='https://cdn.discordapp.com/attachments/736210763315675158/745946782978277406/unknown.png'
+                                    src='https://cdn.discordapp.com/attachments/736210763315675158/745963953259151390/unknown.png'
                                     className={styles.project__thumbnail}
                                 ></img>
                             </Zoom>
