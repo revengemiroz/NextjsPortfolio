@@ -13,7 +13,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
 
-import Knots from "../assets/knots.jpg";
+
 
 import styles from "../styles/pages/projects.module.css";
 
@@ -52,7 +52,7 @@ function projects(props) {
                     <div className={styles.project}>
                         <div className={styles.imgContainer}>
                             <Zoom>
-                                <img src={Recipe}></img>
+                                <img src='https://cdn.discordapp.com/attachments/736210763315675158/745946782978277406/unknown.png'></img>
                             </Zoom>
                         </div>
                         <div className={styles.titleContainer}>
@@ -69,7 +69,7 @@ function projects(props) {
                             <Zoom>
                                 <img
                                     alt='MERN Stack'
-                                    src={MERN_stack}
+                                    src='https://cdn.discordapp.com/attachments/736210763315675158/745946782978277406/unknown.png'
                                     className={styles.project__thumbnail}
                                 ></img>
                             </Zoom>
@@ -88,7 +88,7 @@ function projects(props) {
                             <Zoom>
                                 <img
                                     alt='knots'
-                                    src={Knots}
+                                    src='https://cdn.discordapp.com/attachments/736210763315675158/745946782978277406/unknown.png'
                                     className={styles.project__thumbnail}
                                 ></img>
                             </Zoom>
