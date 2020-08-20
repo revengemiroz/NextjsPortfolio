@@ -13,6 +13,7 @@ import Footer from "../components/Footer/Footer";
 import HTML from "../public/project/html.png";
 import KNOT from "../public/project/four.png";
 import Mern from "../public/project/mern.png";
+import Github from "../public/project/github.png";
 
 import styles from "../styles/pages/projects.module.css";
 
@@ -106,7 +107,7 @@ function projects(props) {
                             <Zoom>
                                 <img
                                     alt='knots'
-                                    src='https://cdn.discordapp.com/attachments/736210763315675158/745946782978277406/unknown.png'
+                                    src={Github}
                                     width='500'
                                     className={styles.project__thumbnail}
                                 ></img>
