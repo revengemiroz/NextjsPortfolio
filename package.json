@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
+    "babel-plugin-inline-import-data-uri": "^1.0.1",
     "babel-plugin-styled-components": "^1.11.1",
     "next": "9.5.1",
     "next-images": "^1.4.1",

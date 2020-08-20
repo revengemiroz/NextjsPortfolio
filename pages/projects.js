@@ -81,6 +81,7 @@ function projects(props) {
                         </div>
                     </div>
 
+
                     <div className={styles.project}>
                         <div className={styles.imgContainer}>
                             <Zoom>
