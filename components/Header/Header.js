@@ -42,7 +42,7 @@ function Header(props) {
 
                     <li>
                         <span onClick={() => toggleMobileMenu(!isMobileMenuVisible)}>
-                            <Link href="/blog">
+                            <Link href="/projects">
                                 <a className={router.pathname == "/projects" ? 'active' : ''}>Projects</a>
                             </Link>
                         </span>
