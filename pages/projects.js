@@ -12,7 +12,6 @@ import Layout from "../components/Layout/Layout";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
-import HTML from "../public/Html.jpg";
 import Recipe from "../public/Recipe.jpg";
 import MERN_stack from "../public/MERN_stack.jpg";
 import Knots from "../public/knots.jpg";
