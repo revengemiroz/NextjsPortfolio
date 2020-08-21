@@ -12,29 +12,31 @@ function Footer(props) {
             <nav>
                 <ul>
                     <li className='box'>
-                        <a href='https://twitter.com/DevkotaMiroz' target='_blank'>
+                        <a href='https://github.com/revengemiroz' target='_blank'>
+                            <i className='fab fa-github'></i>
+                        </a>
+                    </li>
+
+                    <li className='box'>
+                        <a href='https://twitter.com/DevkotaMiroz' className='twitter' target='_blank'>
                             <i className='fab fa-twitter'></i>
                         </a>
                     </li>
 
 
                     <li className='box'>
-                        <a href='https://www.instagram.com/mirozuzamaki/?hl=en' rel="noopener noreferrer" target='_blank'>
+                        <a href='https://www.instagram.com/mirozuzamaki/?hl=en' className='instagram' rel="noopener noreferrer" target='_blank'>
                             <i className='fab fa-instagram'></i>
                         </a>
                     </li>
 
                     <li className='box'>
-                        <a href='https://www.instagram.com/chiyaaaaa/?hl=en' target='_blank'>
+                        <a href='https://www.instagram.com/chiyaaaaa/?hl=en' className='linkedin' target='_blank'>
                             <i className='fab fa-linkedin'></i>
                         </a>
                     </li>
 
-                    <li className='box'>
-                        <a href='https://github.com/revengemiroz' target='_blank'>
-                            <i className='fab fa-github'></i>
-                        </a>
-                    </li>
+
 
                     <li className='box'>
                         <a href='https://codepen.io/miroz-devkota' target='_blank'>

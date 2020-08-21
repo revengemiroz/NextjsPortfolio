@@ -22,6 +22,8 @@
     cursor: pointer;
 }
 
+
+
 .footer a:hover{
     transition: color 0.3s linear ;
 }
@@ -58,7 +60,45 @@
     transform: scale(0.3);
     transition: all 0.3s ease;
   }
+
+  .footer .linkedin{
+    color: #0077b5;
+  }
+
+  .footer .linkedin::after{
+    background-color: #0077b5;
+  }
   
+  .footer .twitter{
+    color: #1da1f2;
+  }
+
+  .footer .twitter:hover{
+    color: #1da1f2;
+  }
+
+  .footer .twitter::after{
+    color: #1da1f2;
+    background-color: rgba(29, 161, 242, 0.2);
+  }
+  
+  
+
+  .footer .instagram{
+      
+      color: #F56040;
+    }
+
+  .footer .instagram:hover{
+    color:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  }
+
+  .footer .instagram::after{
+    color:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  }
+  
+
   .box a:hover::after {
     opacity: 1;
     transform: scale(1);
