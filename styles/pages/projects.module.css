@@ -49,8 +49,10 @@
 
 .titleContainer{
     margin: 15px 0 0 0;
-    
+   
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .titleContainer:hover{
@@ -67,6 +69,8 @@
 
 .titleContainer h4,.titleContainer a{
     margin: 0px 0 0 20px;  
+    
+    word-wrap: break-word;
 }
 
 .titleContainer h4,.titleContainer a{
