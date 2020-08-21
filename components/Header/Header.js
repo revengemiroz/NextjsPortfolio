@@ -59,7 +59,9 @@ function Header(props) {
                     <li>
                         <span>
                             <Link href="/blog">
-                                <a className={router.pathname == "/blog" ? 'active' : ''}>Blog</a>
+                                <a className={router.pathname == "/blog" ? 'active' : ''}>Blog
+                                
+                                </a>
                             </Link>
                         </span>
                     </li>

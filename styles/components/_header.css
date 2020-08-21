@@ -20,6 +20,7 @@
 }
 
 .header a{
+    position: relative;
     font-size: 21px;
     font-weight: 700;
     color: #111111;
@@ -33,7 +34,6 @@
     color: #d30320;
     transition: color 0.3s linear;
 }
-
 
 @media (min-width:768px){
     /* if width is > 768 hide it */

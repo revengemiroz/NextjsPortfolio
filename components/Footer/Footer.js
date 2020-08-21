@@ -11,39 +11,34 @@ function Footer(props) {
         <footer className='footer'>
             <nav>
                 <ul>
-                    <li>
+                    <li className='box'>
                         <a href='https://twitter.com/DevkotaMiroz' target='_blank'>
-                            <span className='fab fa-twitter'></span>
+                            <i className='fab fa-twitter'></i>
                         </a>
                     </li>
 
-                    <li>
-                        <a href='https://www.facebook.com/hotdude.miroj/' target='_blank'>
-                            <span className='fab fa-facebook'></span>
-                        </a>
-                    </li>
 
-                    <li>
+                    <li className='box'>
                         <a href='https://www.instagram.com/mirozuzamaki/?hl=en' rel="noopener noreferrer" target='_blank'>
-                            <span className='fab fa-instagram'></span>
+                            <i className='fab fa-instagram'></i>
                         </a>
                     </li>
 
-                    <li>
+                    <li className='box'>
                         <a href='https://www.instagram.com/chiyaaaaa/?hl=en' target='_blank'>
-                            <span className='fab fa-linkedin'></span>
+                            <i className='fab fa-linkedin'></i>
                         </a>
                     </li>
 
-                    <li>
+                    <li className='box'>
                         <a href='https://github.com/revengemiroz' target='_blank'>
-                            <span className='fab fa-github'></span>
+                            <i className='fab fa-github'></i>
                         </a>
                     </li>
 
-                    <li>
+                    <li className='box'>
                         <a href='https://codepen.io/miroz-devkota' target='_blank'>
-                            <span className='fab fa-codepen'></span>
+                            <i className='fab fa-codepen'></i>
                         </a>
                     </li>
                 </ul>
