@@ -9,7 +9,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <Layout page='home' title='Home | Miroz Devkota'>
+    <Layout page='home' title='Home | Miroz Devkota' image={Giraffe}>
       <Header />
       <div className={styles.container}>
 
