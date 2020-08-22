@@ -20,11 +20,9 @@ let optionsCursorTrueWithMargin = {
     shiftY: -40
 }
 
-const windowGlobal = typeof window !== 'undefined' && window
-
+// const windowGlobal = typeof window !== 'undefined' && window
 
 function about(props) {
-
 
     const [width, height] = windowsize()
 

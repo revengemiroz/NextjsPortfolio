@@ -238,7 +238,7 @@ function cv(props) {
 
                             <div className={styles.edulist}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="8.5" fill="white" stroke="black" stroke-width="3" />
+                                    <circle cx="10" cy="10" r="8.5" fill="white" stroke="black" strokeWidth="3" />
                                 </svg>
 
                                 <p>
@@ -251,7 +251,7 @@ function cv(props) {
 
                             <div className={styles.edulist}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="8.5" fill="white" stroke="black" stroke-width="3" />
+                                    <circle cx="10" cy="10" r="8.5" fill="white" stroke="black" strokeWidth="3" />
                                 </svg>
 
                                 <p>
@@ -345,7 +345,7 @@ function cv(props) {
 
                             <div className={styles.edulist}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="8.5" fill="white" stroke="black" stroke-width="3" />
+                                    <circle cx="10" cy="10" r="8.5" fill="white" stroke="black" strokeWidth="3" />
                                 </svg>
 
                                 <p>

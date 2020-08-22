@@ -140,6 +140,7 @@ function projects(props) {
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
             <Footer />

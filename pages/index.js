@@ -1,4 +1,4 @@
-import Head from 'next/head'
+
 import Layout from '../components/Layout/Layout';
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
@@ -8,6 +8,7 @@ import Giraffe from "../assets/giraffeweyes.png";
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
   return (
     <Layout page='home' title='Home | Miroz Devkota' image={Giraffe}>
       <Header />
