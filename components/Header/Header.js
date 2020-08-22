@@ -7,30 +7,10 @@ function Header(props) {
 
     const router = useRouter()
 
-    const generateClassName = () => {
-        const windowGlobal = typeof window !== 'undefined' && window
-        console.log(windowGlobal.innerWidth);
-
-        if (windowGlobal.innerWidth <= 768 && isMobileMenuVisible) {
-            // edi screen is less than 768 and mobile menu is false
-            //hide the mobile menu and show the button to show the mobile menu
-            return 'nav-main--visible'
-        }
-        else if (windowGlobal.innerWidth <= 768 && !isMobileMenuVisible) {
-            // edi screen is less than 768 and mobile menu is true
-            // show the mobile menu page
-            return 'nav-menu--hidden'
-        }
-        else {
-            return null
-        }
-    }
-
-
     return (
         <header className='header'>
             <nav className='nav-main'>
-                <ul className={generateClassName()}>
+                <ul>
 
                     <li>
                         <span>

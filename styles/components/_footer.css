@@ -1,6 +1,7 @@
 /* footer */
 
 .footer{
+  margin: 50px 0 0 0;
     padding: 15px 0;
     width: 100%;
     border-top: 1px solid #eaeaea;
@@ -22,8 +23,6 @@
     cursor: pointer;
 }
 
-
-
 .footer a:hover{
     transition: color 0.3s linear ;
 }
@@ -38,8 +37,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45px;
-    height: 45px;
+    width: 42px;
+    height: 42px;
     border: 1px solid #d5dbf2;
     border-radius: 100%;
     margin-left: 0px;
@@ -51,8 +50,8 @@
   .box a::after {
     z-index: -5;
     content: "";
-    width: 45px;
-    height: 45px;
+    width: 42px;
+    height: 42px;
     background-color: #222222;
     border-radius: 100%;
     position: absolute;
@@ -81,11 +80,8 @@
     color: #1da1f2;
     background-color: rgba(29, 161, 242, 0.2);
   }
-  
-  
 
   .footer .instagram{
-      
     color: black;
     }
 

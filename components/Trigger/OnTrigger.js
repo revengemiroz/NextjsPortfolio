@@ -1,4 +1,5 @@
 import React from 'react';
+
 import styles from "../../styles/components/_OnTrigger.module.css";
 
 function OnTrigger({ children, img, description, movietitle }) {
@@ -7,11 +8,11 @@ function OnTrigger({ children, img, description, movietitle }) {
             <div className={styles.imgContainer}>
                 <img src={img} alt={movietitle}></img>
             </div>
+
             <div className={styles.description}>
                 <p>{movietitle}</p>
                 <p>{description}</p>
             </div>
-
         </div>
     );
 }

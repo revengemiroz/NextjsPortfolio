@@ -106,6 +106,8 @@
 @media (max-width:450px){
     /* if width is < 450 hide it */
  
+ 
+
     .game{
        
         width: 100%;
@@ -117,4 +119,13 @@
         height: 100%;
     }
 
+    .movieslistContainer{
+        padding: 0 0 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightside{
+        padding: 0 0 0 0px;
+    }
 }
