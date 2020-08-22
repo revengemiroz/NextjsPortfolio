@@ -37,7 +37,7 @@ function projects(props) {
                     <div className={styles.project}>
                         <div className={styles.imgContainer}>
                             <Zoom>
-                                <img src={HTML}></img>
+                                <img src={HTML} alt='Html'></img>
                             </Zoom>
                         </div>
                         <div className={styles.titleContainer}>
@@ -52,7 +52,7 @@ function projects(props) {
                     <div className={styles.project}>
                         <div className={styles.imgContainer}>
                             <Zoom>
-                                <img src='https://cdn.discordapp.com/attachments/736210763315675158/745963481768919050/unknown.png'></img>
+                                <img src='https://cdn.discordapp.com/attachments/736210763315675158/745963481768919050/unknown.png' alt='vanilla Js'></img>
                             </Zoom>
                         </div>
                         <div className={styles.titleContainer}>

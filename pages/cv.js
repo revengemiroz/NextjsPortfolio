@@ -38,7 +38,7 @@ function cv(props) {
 
                 <div className={styles.link}>
                     <Link href='/cv.pdf' target='_self' download>
-                        <img src={Pdf}></img>
+                        <img src={Pdf} alt='pdf'></img>
                     </Link>
                 </div>
 
@@ -76,21 +76,21 @@ function cv(props) {
                             <div className={styles.collectionInterest}>
                                 <div >
                                     <div>
-                                        <img src={Html}></img>
+                                        <img src={Html} alt='html'></img>
                                     </div>
                                     <span>HTML</span>
                                 </div>
 
                                 <div>
                                     <div>
-                                        <img src={Css}></img>
+                                        <img src={Css} alt='css'></img>
                                     </div>
                                     <span>CSS</span>
                                 </div>
 
                                 <div>
                                     <div>
-                                        <img src={Js}></img>
+                                        <img src={Js} alt='js'></img>
                                     </div>
                                     <span>JS</span>
                                 </div>
@@ -98,21 +98,21 @@ function cv(props) {
                             <div className={styles.collectionInterest}>
                                 <div>
                                     <div>
-                                        <img src={ReactJs}></img>
+                                        <img src={ReactJs} alt='reactjs'></img>
                                     </div>
                                     <span>React Js</span>
                                 </div>
 
                                 <div>
                                     <div>
-                                        <img src={Mongodb}></img>
+                                        <img src={Mongodb} alt='mongodb'></img>
                                     </div>
                                     <span>MongoDb</span>
                                 </div>
 
                                 <div>
                                     <div>
-                                        <img src={Figma}></img>
+                                        <img src={Figma} alt='figma'></img>
                                     </div>
                                     <span>Figma</span>
                                 </div>
@@ -122,21 +122,21 @@ function cv(props) {
                             <div className={styles.collectionInterest}>
                                 <div>
                                     <div>
-                                        <img src={Git}></img>
+                                        <img src={Git} alt='git'></img>
                                     </div>
                                     <span>Github</span>
                                 </div>
 
                                 <div>
                                     <div>
-                                        <img src={Git}></img>
+                                        <img src={Git} alt='git'></img>
                                     </div>
                                     <span>Github</span>
                                 </div>
 
                                 <div>
                                     <div>
-                                        <img src={Git}></img>
+                                        <img src={Git} alt='git'></img>
                                     </div>
                                     <span>Github</span>
                                 </div>
@@ -151,21 +151,21 @@ function cv(props) {
                             <div className={styles.collection}>
                                 <div>
                                     <div>
-                                        <img src={Football}></img>
+                                        <img src={Football} alt='football'></img>
                                     </div>
                                     <span>Football</span>
                                 </div>
 
                                 <div>
                                     <div>
-                                        <img src={Games}></img>
+                                        <img src={Games} alt='games'></img>
                                     </div>
                                     <span>Online Games</span>
                                 </div>
 
                                 <div>
                                     <div>
-                                        <img src={Video}></img>
+                                        <img src={Video} alt='video'></img>
                                     </div>
                                     <span>Movies</span>
                                 </div>
@@ -183,7 +183,7 @@ function cv(props) {
                             <div className={styles.list}>
                                 <a href='https://github.com/revengemiroz' target='_blank'>
                                     <div className={styles.icons}>
-                                        <img src={Github} />
+                                        <img src={Github} alt='github' />
                                     </div>
                                 </a>
                                 <p>github.com/revengemiroz</p>
@@ -192,7 +192,7 @@ function cv(props) {
                             <div className={styles.list}>
                                 <a href='https://mail.google.com/mail/?view=cm&fs=1&to=miroz.devkota@gmail.com' target='_blank'>
                                     <div className={styles.icons}>
-                                        <img src={Email} />
+                                        <img src={Email} alt='email' />
                                     </div>
                                 </a>
                                 <p>miroz.devkota@gmail.com</p>
@@ -203,18 +203,18 @@ function cv(props) {
 
                     {/* horizontal line */}
                     <div className={styles.hr}>
-                        <img src={Line}></img>
+                        <img src={Line} alt='line'></img>
                     </div>
 
                     <div className={styles.vertical}>
-                        <img src={Vertical}></img>
+                        <img src={Vertical} alt='vertical'></img>
                     </div>
 
                     {/* right side */}
                     <div className={styles.rightside}>
 
                         <div className={styles.topexperience}>
-                            <img src={Experience}></img>
+                            <img src={Experience} alt='experience'></img>
                         </div>
 
 
@@ -269,7 +269,7 @@ function cv(props) {
                             <span>WORK EXPERIENCE</span>
 
                             <div className={styles.edulist}>
-                                <img src={Ellipse}></img>
+                                <img src={Ellipse} alt='ellipse'></img>
 
                                 <p style={{ marginBottom: '5px' }}>
                                     <p><span className={styles.strong}>QUALITY ANALYST</span> | OCT, 2019 - DEC, 2019</p>
@@ -295,7 +295,7 @@ function cv(props) {
 
 
                             <div className={styles.edulist}>
-                                <img src={Ellipse}></img>
+                                <img src={Ellipse} alt='ellipse'></img>
 
                                 <p style={{ marginBottom: '5px' }}>
                                     <p><span className={styles.strong}>SUPERVISOR</span> | JUN, 2019 - JUL, 2019</p>
@@ -318,7 +318,7 @@ function cv(props) {
                             </div>
 
                             <div className={styles.edulist}>
-                                <img src={Ellipse}></img>
+                                <img src={Ellipse} alt='ellipse'></img>
 
                                 <p style={{ marginBottom: '5px' }}>
                                     <p><span className={styles.strong}>QUALITY CHECKER</span> | JAN, 2019 - MAR, 2019</p>
@@ -374,7 +374,7 @@ function cv(props) {
 
                         {/* the end */}
                         <div className={styles.end}>
-                            <img src={End}></img>
+                            <img src={End} alt='end'></img>
                         </div>
 
                     </div>

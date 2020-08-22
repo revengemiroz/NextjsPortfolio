@@ -11,15 +11,15 @@ import styles from "../styles/pages/blog.module.css";
 function blog(props) {
     return (
         <Layout title='Blog | Miroz Devkota'>
-            <Header></Header>
+            <Header />
             <div className={styles.containers}>
                 <div className={styles.imgContainer}>
 
-                    <img src={Waiting}></img>
+                    <img src={Waiting} alt='waiting'></img>
                 </div>
                 <p>It's under construction</p>
             </div>
-            <Footer></Footer>
+            <Footer />
         </Layout>
     );
 }
