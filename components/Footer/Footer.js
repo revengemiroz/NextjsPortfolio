@@ -12,26 +12,26 @@ function Footer(props) {
             <nav>
                 <ul>
                     <li className='box'>
-                        <a rel="noopener" href='https://github.com/revengemiroz' target='_blank'>
+                        <a aria-label="Github" rel="noopener" href='https://github.com/revengemiroz' target='_blank'>
                             <i className='fab fa-github'></i>
                         </a>
                     </li>
 
                     <li className='box'>
-                        <a rel="noopener" href='https://twitter.com/DevkotaMiroz' className='twitter' target='_blank'>
+                        <a aria-label="Twitter" rel="noopener" href='https://twitter.com/DevkotaMiroz' className='twitter' target='_blank'>
                             <i className='fab fa-twitter'></i>
                         </a>
                     </li>
 
 
                     <li className='box'>
-                        <a href='https://www.instagram.com/mirozuzamaki/?hl=en' className='instagram' rel="noopener" target='_blank'>
+                        <a aria-label="Instagram" href='https://www.instagram.com/mirozuzamaki/?hl=en' className='instagram' rel="noopener" target='_blank'>
                             <i className='fab fa-instagram'></i>
                         </a>
                     </li>
 
                     <li className='box'>
-                        <a rel="noopener" href='https://www.instagram.com/chiyaaaaa/?hl=en' className='linkedin' target='_blank'>
+                        <a aria-label="LinkedIn" rel="noopener" href='https://www.instagram.com/chiyaaaaa/?hl=en' className='linkedin' target='_blank'>
                             <i className='fab fa-linkedin'></i>
                         </a>
                     </li>
@@ -39,7 +39,7 @@ function Footer(props) {
 
 
                     <li className='box'>
-                        <a rel="noopener" href='https://codepen.io/miroz-devkota' target='_blank'>
+                        <a aria-label="Codepen" rel="noopener" href='https://codepen.io/miroz-devkota' target='_blank'>
                             <i className='fab fa-codepen'></i>
                         </a>
                     </li>
