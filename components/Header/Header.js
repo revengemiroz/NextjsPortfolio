@@ -31,7 +31,7 @@ function Header(props) {
                     <li>
                         <span>
                             <Link href="/cv" >
-                                <a target='_blank'>CV</a>
+                                <a ref='noopener' target='_blank'>CV</a>
                             </Link>
                         </span>
                     </li>
