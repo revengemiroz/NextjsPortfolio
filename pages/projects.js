@@ -30,7 +30,7 @@ function projects(props) {
                 <p className={styles.commingSoon}>
                     Below are some of my Projects that i have done on the
                     road to being a good Web devleoper. Most of my stacks
-                    include Javascript Framework like <a href='https://reactjs.org/' target='_blank'>React Js</a>, <a href='https://nextjs.org/' target='_blank'>Next Js</a>, <a href='https://nodejs.org/en/' target='_blank'>Node Js</a>, <a href='https://expressjs.com/' target='_blank'>Express Js</a> and databases such as <a href='https://www.postgresql.org/' target='_blank'>PostgreSQL</a>, <a href='https://www.mongodb.com/' target='_blank'>MongoDB</a>.
+                    include Javascript Framework like <a href='https://reactjs.org/' rel="noopener noreferrer" target='_blank'>React Js</a>, <a href='https://nextjs.org/' rel="noopener noreferrer" target='_blank'>Next Js</a>, <a href='https://nodejs.org/en/' rel="noopener noreferrer" target='_blank'>Node Js</a>, <a href='https://expressjs.com/' rel="noopener noreferrer" target='_blank'>Express Js</a> and databases such as <a href='https://www.postgresql.org/' rel="noopener noreferrer" target='_blank'>PostgreSQL</a>, <a href='https://www.mongodb.com/' rel="noopener noreferrer" target='_blank'>MongoDB</a>.
                 </p>
 
                 <div className={styles.projectCollection}>
@@ -43,7 +43,7 @@ function projects(props) {
                         <div className={styles.titleContainer}>
                             <span className={styles.number}>No.<span>1</span></span>
                             <h4>HTML and CSS</h4>
-                            <a className={styles.link} href='https://mirozdevkota.netlify.app/' target='_blank'>
+                            <a className={styles.link} href='https://mirozdevkota.netlify.app/' rel="noopener noreferrer" target='_blank'>
                                 <span className='fas fa-external-link-alt'></span>
                             </a>
                         </div>
@@ -58,7 +58,7 @@ function projects(props) {
                         <div className={styles.titleContainer}>
                             <span className={styles.number}>No.<span>2</span></span>
                             <h4>Vanilla Js</h4>
-                            <a className={styles.link} href='https://flamboyant-sinoussi-7ab217.netlify.app/' target='_blank'>
+                            <a className={styles.link} href='https://flamboyant-sinoussi-7ab217.netlify.app/' rel="noopener noreferrer" target='_blank'>
                                 <span className='fas fa-external-link-alt'></span>
                             </a>
                         </div>
@@ -77,7 +77,7 @@ function projects(props) {
                         <div className={styles.titleContainer}>
                             <span className={styles.number}>No.<span>3</span></span>
                             <h4>MERN Stack</h4>
-                            <a className={styles.link} href='https://inspiring-visvesvaraya-fd5979.netlify.app/' target='_blank'>
+                            <a className={styles.link} href='https://inspiring-visvesvaraya-fd5979.netlify.app/' rel="noopener noreferrer" target='_blank'>
                                 <span className='fas fa-external-link-alt'></span>
                             </a>
                         </div>
@@ -96,7 +96,7 @@ function projects(props) {
                         <div className={styles.titleContainer}>
                             <span className={styles.number}>No.<span>4</span></span>
                             <h4>Knots</h4>
-                            <a className={styles.link} href='https://jovial-nobel-308250.netlify.app/' target='_blank'>
+                            <a className={styles.link} href='https://jovial-nobel-308250.netlify.app/' rel="noopener noreferrer" target='_blank'>
                                 <span className='fas fa-external-link-alt'></span>
                             </a>
                         </div>
@@ -116,7 +116,7 @@ function projects(props) {
                         <div className={styles.titleContainer}>
                             <span className={styles.number}>No.<span>5</span></span>
                             <h4>Github with multi language support</h4>
-                            <a className={styles.link} href='https://quizzical-mirzakhani-861b64.netlify.app/' target='_blank'>
+                            <a className={styles.link} href='https://quizzical-mirzakhani-861b64.netlify.app/' rel="noopener noreferrer" target='_blank'>
                                 <span className='fas fa-external-link-alt'></span>
                             </a>
                         </div>
@@ -135,7 +135,7 @@ function projects(props) {
                         <div className={styles.titleContainer}>
                             <span className={styles.number}>No.<span>6</span></span>
                             <h4>Form</h4>
-                            <a className={styles.link} href='https://quirky-meninsky-53241c.netlify.app/' target='_blank'>
+                            <a className={styles.link} href='https://quirky-meninsky-53241c.netlify.app/' rel="noopener noreferrer" target='_blank'>
                                 <span className='fas fa-external-link-alt'></span>
                             </a>
                         </div>
