@@ -38,15 +38,18 @@ function about(props) {
 
 
                 <p className={styles.moviestext}>
-                    I like to watch movies a lot of it i think.
-                    But i am a picky movie watcher.
-                    I mostly like to watch movies from countries like USA,
-                    Korean, Taiwanese, and Thailand.
-                    I also like to watch animes. Some of my favorites
-                    anime are Naruto, Death note, One Piece ...
-                    I also play games ocassionally. I love League of Legend,
-                    and games like Valorant and Fifa. Any competetive games
-                    that i play with friends i tend to love it more.
+                    I am a Front End Developer based in Nepal,Kathmandu.
+                    I enjoy taking unique design and features and implementing
+                    them. I also love the logic and structure that goes behind
+                    the development process and always strive to write elegant
+                    and efficient code whether it be HTML, CSS or REACT JS.
+                    <br></br>
+                    <br></br>
+                    When I am not coding i like to watch movies.
+                    Some of the regions that i watch movies from are
+                    USA, Korean, Taiwanese, and Thailand.
+                    Some of the movies that i really like are listed below
+                    so give my list a try and see if you like some of them.
                 </p>
 
                 <h1 className={styles.movies}>Movies</h1>

@@ -16,6 +16,8 @@ import Js from "../assets/javascript.png";
 import ReactJs from "../assets/react.png";
 import Mongodb from "../assets/mongodb.jpg";
 import Figma from "../assets/figma.jpg";
+import NextJs from "../public/favicon.ico";
+import NodeJs from "../assets/nodejs.png";
 import Git from "../assets/git.png";
 
 import Line from "../assets/Line.png";
@@ -38,6 +40,7 @@ function cv(props) {
 
                 <div className={styles.link}>
                     <Link href='/cv.pdf' target='_self' download>
+
                         <img src={Pdf} alt='pdf'></img>
                     </Link>
                 </div>
@@ -53,8 +56,8 @@ function cv(props) {
                         <div className={styles.author}>
                             <span className={styles.name}>MIROZ DEVKOTA</span>
                             <p>
-                                <p>Web Developer, Javascript Stack</p>
-                                <p>MERN Stack, GraphQL</p>
+                                <p>Front End Developer, Javascript</p>
+                                <p>MERN Stack, NEXT Js</p>
                             </p>
                         </div>
 
@@ -71,19 +74,47 @@ function cv(props) {
                         </div>
 
                         <div className={styles.interests}>
-                            <span className={styles.header}>LANGUAGES</span>
+                            <span className={styles.header}>WEB TECHNOLOGIES</span>
 
                             <div className={styles.collectionInterest}>
+                                <div>
+                                    <div>
+                                        <img src={NodeJs} alt='Node Js'></img>
+                                    </div>
+                                    <span>Node Js</span>
+                                </div>
+
+
+
+                                <div>
+                                    <div>
+                                        <img src={ReactJs} alt='reactjs'></img>
+                                    </div>
+                                    <span>React Js</span>
+                                </div>
+                                <div>
+                                    <div>
+                                        <img src={NextJs} alt='next js'></img>
+                                    </div>
+                                    <span>Next Js</span>
+                                </div>
+
+                            </div>
+                            <div className={styles.collectionInterest}>
+
+
                                 <div >
                                     <div>
-                                        <img src={Html} alt='html'></img>
+                                        <img src='https://webassets.mongodb.com/_com_assets/cms/JSON Document Copy 4@3x-aszlgv7njl.svg' alt='html'></img>
                                     </div>
                                     <span>HTML</span>
                                 </div>
 
+
+
                                 <div>
                                     <div>
-                                        <img src={Css} alt='css'></img>
+                                        <img src='https://webassets.mongodb.com/_com_assets/cms/Stitch triggers-ryg6nk6gv4.svg' alt='css'></img>
                                     </div>
                                     <span>CSS</span>
                                 </div>
@@ -94,21 +125,12 @@ function cv(props) {
                                     </div>
                                     <span>JS</span>
                                 </div>
-                            </div>
-                            <div className={styles.collectionInterest}>
-                                <div>
-                                    <div>
-                                        <img src={ReactJs} alt='reactjs'></img>
-                                    </div>
-                                    <span>React Js</span>
-                                </div>
 
-                                <div>
-                                    <div>
-                                        <img src={Mongodb} alt='mongodb'></img>
-                                    </div>
-                                    <span>MongoDb</span>
-                                </div>
+
+
+                            </div>
+
+                            <div className={styles.collectionInterest}>
 
                                 <div>
                                     <div>
@@ -117,30 +139,18 @@ function cv(props) {
                                     <span>Figma</span>
                                 </div>
 
+                                <div>
+                                    <div>
+                                        <svg height="45" width="22" viewBox="0 0 13 26"><path d="M11.7 10.4C10.3 4.3 7.4 2.7 6.7 1.6 6.3 1.1 6.1 0.5 5.8 0 5.8 0.5 5.7 0.9 5.3 1.3 4.3 2.1 0.4 5.3 0 12.2-0.3 18.7 4.8 22.6 5.5 23 6 23.3 6.7 23 7 22.8 9.4 21.1 12.8 16.7 11.7 10.4" fill="#10AA50"></path>
+                                            <path d="M6 19.5C5.8 21.1 5.7 22 5.4 22.9 5.4 22.9 5.6 24.4 5.8 26L6.3 26C6.5 24.9 6.7 23.8 6.9 22.7 6.2 22.3 6 20.9 6 19.5Z" fill="#B8C4C2"></path>
+                                            <path d="M7 22.8L7 22.8C6.3 22.4 6.1 20.9 6.1 19.6 6.3 17.3 6.3 15 6.3 12.6 6.2 11.4 6.3 1.5 6 0 6.2 0.5 6.4 1 6.7 1.4 7.4 2.6 10.3 4.2 11.7 10.3 12.8 16.6 9.5 21.1 7 22.8Z" fill="#12924F"></path>
+                                        </svg>
+
+                                    </div>
+                                    <span>MongoDb</span>
+                                </div>
+
                             </div>
-                            {/* 
-                            <div className={styles.collectionInterest}>
-                                <div>
-                                    <div>
-                                        <img src={Git} alt='git'></img>
-                                    </div>
-                                    <span>Github</span>
-                                </div>
-
-                                <div>
-                                    <div>
-                                        <img src={Git} alt='git'></img>
-                                    </div>
-                                    <span>Github</span>
-                                </div>
-
-                                <div>
-                                    <div>
-                                        <img src={Git} alt='git'></img>
-                                    </div>
-                                    <span>Github</span>
-                                </div>
-                            </div> */}
 
                         </div>
 
@@ -197,6 +207,7 @@ function cv(props) {
                                 </a>
                                 <p>miroz.devkota@gmail.com</p>
                             </div>
+
                         </div>
 
                     </div>
@@ -229,12 +240,10 @@ function cv(props) {
                                 </svg>
 
                                 <p>
-                                    <p><span className={styles.strong}>SLC</span>  ( GRADE 10 ) &nbsp;|&nbsp;  ~ DEC, 2011</p>
-
-                                    <p>Graded English Medium School (GEMS)</p>
+                                    <p><span className={styles.strong}>Bachelor's Degree</span> |  ~ FEB, 2019</p>
+                                    <p style={{ maxWidth: '380px' }}>Nepal College of Information Technology, B.E in Software Englineering</p>
                                 </p>
                             </div>
-
 
                             <div className={styles.edulist}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -248,15 +257,15 @@ function cv(props) {
                                 </p>
                             </div>
 
-
                             <div className={styles.edulist}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <circle cx="10" cy="10" r="8.5" fill="white" stroke="black" strokeWidth="3" />
                                 </svg>
 
                                 <p>
-                                    <p><span className={styles.strong}>Bachelor's Degree</span> |  ~ FEB, 2019</p>
-                                    <p style={{ maxWidth: '380px' }}>Nepal College of Information Technology, B.E in Software Englineering</p>
+                                    <p><span className={styles.strong}>SLC</span>  ( GRADE 10 ) &nbsp;|&nbsp;  ~ DEC, 2011</p>
+
+                                    <p>Graded English Medium School (GEMS)</p>
                                 </p>
                             </div>
 

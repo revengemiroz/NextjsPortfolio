@@ -29,7 +29,7 @@ function projects(props) {
 
                 <p className={styles.commingSoon}>
                     Below are some of my Projects that i have done on the
-                    road to being a good Web devleoper. Most of my stacks
+                    road to being a good Front End Developer. Most of my stacks
                     include Javascript Framework like <a href='https://reactjs.org/' rel="noopener noreferrer" target='_blank'>React Js</a>, <a href='https://nextjs.org/' rel="noopener noreferrer" target='_blank'>Next Js</a>, <a href='https://nodejs.org/en/' rel="noopener noreferrer" target='_blank'>Node Js</a>, <a href='https://expressjs.com/' rel="noopener noreferrer" target='_blank'>Express Js</a> and databases such as <a href='https://www.postgresql.org/' rel="noopener noreferrer" target='_blank'>PostgreSQL</a>, <a href='https://www.mongodb.com/' rel="noopener noreferrer" target='_blank'>MongoDB</a>.
                 </p>
 

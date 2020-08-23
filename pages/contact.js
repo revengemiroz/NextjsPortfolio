@@ -13,7 +13,7 @@ function contact(props) {
             <div className={styles.container}>
                 <p className={styles.title}>Let's get in touch.</p>
 
-                <p className={styles.description}>Do you have some project you want to realize? Please, contact me via <a href='mailto:miroz.devkota@gmail.com'>email</a>.</p>
+                <p className={styles.description}>Do you have some project you want to realize? Please, contact me via <a href='mailto:miroz.devkota@gmail.com'>miroz.devkota@gmail.com</a>.</p>
             </div>
             <Footer />
         </Layout>
