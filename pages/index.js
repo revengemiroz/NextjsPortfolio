@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <div className={styles.container}>
 
-        <img className={styles.profilePic} src={Giraffe} alt='Profile Pic'></img>
+        <img className={styles.profilePic} src={Giraffe} alt='ProfilePic'></img>
 
         <p className={styles.name}>Miroz Devkota</p>
 
