@@ -12,7 +12,7 @@ function Footer(props) {
             <nav>
                 <ul>
                     <li className='box'>
-                        <a aria-label="Github" rel="noopener" href='https://github.com/revengemiroz' target='_blank'>
+                        <a aria-label="Github" href='https://github.com/revengemiroz' rel="noopener" target='_blank'>
                             <i className='fab fa-github'></i>
                         </a>
                     </li>
@@ -39,7 +39,7 @@ function Footer(props) {
 
 
                     <li className='box'>
-                        <a aria-label="Codepen" rel="noopener" href='https://codepen.io/miroz-devkota' target='_blank'>
+                        <a aria-label="Codepen" href='https://codepen.io/miroz-devkota' rel="noopener" target='_blank'>
                             <i className='fab fa-codepen'></i>
                         </a>
                     </li>
