@@ -41,7 +41,7 @@ function about(props) {
                     I like to watch movies a lot of it i think.
                     But i am a picky movie watcher.
                     I mostly like to watch movies from countries like USA,
-                    Korean, Tapanese, and Thailand.
+                    Korean, Taiwanese, and Thailand.
                     I also like to watch animes. Some of my favorites
                     anime are Naruto, Death note, One Piece ...
                     I also play games ocassionally. I love League of Legend,

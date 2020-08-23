@@ -7,6 +7,8 @@ https://www.figma.com/proto/F8X9M5KeoHSjX7XCTQ4UEd/Portfolio?node-id=3%3A0&scali
 ## Html to PDF
 https://www.sejda.com/html-to-pdf
 
+## Google Analytics is also done in the header
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

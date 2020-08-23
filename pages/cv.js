@@ -71,7 +71,7 @@ function cv(props) {
                         </div>
 
                         <div className={styles.interests}>
-                            <span className={styles.header}>INTERESTS</span>
+                            <span className={styles.header}>LANGUAGES</span>
 
                             <div className={styles.collectionInterest}>
                                 <div >
@@ -118,7 +118,7 @@ function cv(props) {
                                 </div>
 
                             </div>
-
+                            {/* 
                             <div className={styles.collectionInterest}>
                                 <div>
                                     <div>
@@ -140,7 +140,7 @@ function cv(props) {
                                     </div>
                                     <span>Github</span>
                                 </div>
-                            </div>
+                            </div> */}
 
                         </div>
 
