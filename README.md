@@ -1,5 +1,5 @@
 ## Deployed to
-https://nextjs-portfolio-steel.vercel.app/cv
+https:/mirozdevkota.com.np
 
 ## UI Design in Figma
 https://www.figma.com/proto/F8X9M5KeoHSjX7XCTQ4UEd/Portfolio?node-id=3%3A0&scaling=min-zoom
