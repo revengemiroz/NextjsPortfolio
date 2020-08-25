@@ -10,8 +10,11 @@ https://www.sejda.com/html-to-pdf
 ## Google Analytics is also done in the header
 googel analytics has been added in this project
 
-## deplay to vercel after npm run dev
+## deploy to vercel after npm run dev
 vercel alias nextjs-portfolio-2c92kie4p.vercel.app  mirozdevkota.com.np
+
+## tipsy.js (remaining to do)
+hover to the project page and add discription on what the project is about.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
