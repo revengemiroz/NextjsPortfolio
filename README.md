@@ -1,5 +1,5 @@
 ## Deployed to
-https:/mirozdevkota.com.np
+https://www.mirozdevkota.com.np
 
 ## UI Design in Figma
 https://www.figma.com/proto/F8X9M5KeoHSjX7XCTQ4UEd/Portfolio?node-id=3%3A0&scaling=min-zoom
