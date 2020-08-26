@@ -38,9 +38,10 @@ function about(props) {
 
 
                 <p className={styles.moviestext}>
-                    I am a Front End Developer based in Nepal,Kathmandu.
-                    I enjoy taking unique design and features and implementing
-                    them. I also love the logic and structure that goes behind
+                    I am a Front End Developer based in Nepal, Kathmandu.
+                    I enjoy implementing unique design and features for
+                    the projects I undertake.
+                    I also love the logic and structure that goes behind
                     the development process and always strive to write elegant
                     and efficient code whether it be HTML, CSS or REACT JS.
                     <br></br>

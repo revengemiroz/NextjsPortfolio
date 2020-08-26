@@ -31,7 +31,7 @@ function Footer(props) {
                     </li>
 
                     <li className='box'>
-                        <a aria-label="LinkedIn" rel="noopener" href='https://www.instagram.com/chiyaaaaa/?hl=en' className='linkedin' target='_blank'>
+                        <a aria-label="LinkedIn" rel="noopener" href='https://www.linkedin.com/in/miroz-devkota-772835144/' className='linkedin' target='_blank'>
                             <i className='fab fa-linkedin'></i>
                         </a>
                     </li>

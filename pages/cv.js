@@ -31,6 +31,8 @@ import Link from 'next/link';
 
 import Pdf from "../assets/pdf.png";
 
+import DownloadButton from "../components/DownloadButton/downloadbutton";
+
 
 function cv(props) {
     return (
@@ -241,7 +243,7 @@ function cv(props) {
 
                                 <p>
                                     <p><span className={styles.strong}>Bachelor's Degree</span> |  ~ FEB, 2019</p>
-                                    <p style={{ maxWidth: '380px' }}>Nepal College of Information Technology, B.E in Software Englineering</p>
+                                    <p style={{ maxWidth: '380px' }}>Nepal College of Information Technology, B.E in Software Engineering</p>
                                 </p>
                             </div>
 
@@ -389,7 +391,9 @@ function cv(props) {
                     </div>
                 </div>
             </div>
+            {/* <DownloadButton /> */}
         </Layout>
+
     );
 }
 

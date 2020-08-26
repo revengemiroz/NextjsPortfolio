@@ -2,6 +2,7 @@ import '../styles/globals.css'
 
 import 'react-medium-image-zoom/dist/styles.css'
 
+// import '../components/DownloadButton/download.css';
 //base
 import "../styles/base/_base.css";
 import "../styles/base/_normalize.css";
