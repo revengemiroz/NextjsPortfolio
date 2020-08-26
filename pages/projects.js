@@ -34,35 +34,26 @@ function projects(props) {
                 </p>
 
                 <div className={styles.projectCollection}>
+
                     <div className={styles.project}>
                         <div className={styles.imgContainer}>
                             <Zoom>
-                                <img src={HTML} alt='Html'></img>
+                                <img
+                                    alt='knots'
+                                    src={KNOT}
+                                    className={styles.project__thumbnail}
+                                ></img>
                             </Zoom>
                         </div>
                         <div className={styles.titleContainer}>
-                            <span className={styles.number}>No.<span>1</span></span>
-                            <h4>HTML and CSS</h4>
-                            <a className={styles.link} href='https://mirozdevkota.netlify.app/' rel="noopener noreferrer" target='_blank'>
+                            <span className={styles.number}>No.<span>4</span></span>
+                            <h4>Knots</h4>
+                            <a className={styles.link} href='https://jovial-nobel-308250.netlify.app/' rel="noopener noreferrer" target='_blank'>
                                 <span className='fas fa-external-link-alt'></span>
                             </a>
                         </div>
                     </div>
 
-                    <div className={styles.project}>
-                        <div className={styles.imgContainer}>
-                            <Zoom>
-                                <img src='https://cdn.discordapp.com/attachments/736210763315675158/745963481768919050/unknown.png' alt='vanilla Js'></img>
-                            </Zoom>
-                        </div>
-                        <div className={styles.titleContainer}>
-                            <span className={styles.number}>No.<span>2</span></span>
-                            <h4>Vanilla Js</h4>
-                            <a className={styles.link} href='https://flamboyant-sinoussi-7ab217.netlify.app/' rel="noopener noreferrer" target='_blank'>
-                                <span className='fas fa-external-link-alt'></span>
-                            </a>
-                        </div>
-                    </div>
 
                     <div className={styles.project}>
                         <div className={styles.imgContainer}>
@@ -86,17 +77,30 @@ function projects(props) {
                     <div className={styles.project}>
                         <div className={styles.imgContainer}>
                             <Zoom>
-                                <img
-                                    alt='knots'
-                                    src={KNOT}
-                                    className={styles.project__thumbnail}
-                                ></img>
+                                <img src='https://cdn.discordapp.com/attachments/736210763315675158/745963481768919050/unknown.png' alt='vanilla Js'></img>
                             </Zoom>
                         </div>
                         <div className={styles.titleContainer}>
-                            <span className={styles.number}>No.<span>4</span></span>
-                            <h4>Knots</h4>
-                            <a className={styles.link} href='https://jovial-nobel-308250.netlify.app/' rel="noopener noreferrer" target='_blank'>
+                            <span className={styles.number}>No.<span>2</span></span>
+                            <h4>Vanilla Js</h4>
+                            <a className={styles.link} href='https://flamboyant-sinoussi-7ab217.netlify.app/' rel="noopener noreferrer" target='_blank'>
+                                <span className='fas fa-external-link-alt'></span>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                    <div className={styles.project}>
+                        <div className={styles.imgContainer}>
+                            <Zoom>
+                                <img src={HTML} alt='Html'></img>
+                            </Zoom>
+                        </div>
+                        <div className={styles.titleContainer}>
+                            <span className={styles.number}>No.<span>1</span></span>
+                            <h4>HTML and CSS</h4>
+                            <a className={styles.link} href='https://mirozdevkota.netlify.app/' rel="noopener noreferrer" target='_blank'>
                                 <span className='fas fa-external-link-alt'></span>
                             </a>
                         </div>

@@ -47,9 +47,9 @@ function about(props) {
                     <br></br>
                     <br></br>
                     When I am not coding i like to watch movies.
-                    Some of the regions that i watch movies from are
+                    Some of the regions that I watch movies from are
                     USA, Korean, Taiwanese, and Thailand.
-                    Some of the movies that i really like are listed below
+                    Some of the movies that I really like are listed below
                     so give my list a try and see if you like some of them.
                 </p>
 
@@ -782,7 +782,7 @@ function about(props) {
                 </div>
 
                 {/* anime list */}
-                <h1 className={styles.movies}>Animes</h1>
+                <h1 className={styles.movies}>Anime</h1>
                 <div className={styles.movieslistContainer}>
                     <div className={styles.leftside}>
                         <ul>
