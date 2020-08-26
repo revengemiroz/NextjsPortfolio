@@ -18,7 +18,7 @@ export default function Home() {
 
         <p className={styles.name}>Miroz Devkota</p>
 
-        <p className={styles.description}>Web designer and developer from <a href='https://visitnepal2020.com/'>Nepal.</a></p>
+        <p className={styles.description}>Web designer and developer from <a href='https://www.youtube.com/watch?v=0crqE92gjis&t=4s'>Nepal.</a></p>
 
       </div>
 
