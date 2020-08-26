@@ -66,13 +66,7 @@ function cv(props) {
                         <div className={styles.aboutMe}>
                             <span className={styles.header}>ABOUT ME</span>
 
-                            <p>When I went to Japan with my girlfriend we drove a
-                            hired car to the middle of the town we were in parked near a
-                            Ginza and left a 5000 yen bill on the dash with
-                            the windows rolled down. She told me that nobody
-                            would steal it. We went shopping for about two
-                            hours and returned to the vehicle the money was
-                                gone. Guess whose fault was this.</p>
+                            <p>I am a Front End Developer based in Nepal, Kathmandu. I enjoy implementing unique design and features for the projects I undertake. I also love the logic and structure that goes behind the development process and always strive to write elegant and efficient code whether it be HTML, CSS or REACT JS.</p>
                         </div>
 
                         <div className={styles.interests}>
