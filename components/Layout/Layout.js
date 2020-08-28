@@ -15,6 +15,7 @@ function Layout({ children, page, title, image }) {
                 <meta key='og:image' name='og:image' content={image} />
 
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176053043-1"></script>
+                <script data-ad-client="ca-pub-3843144567571433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <script dangerouslySetInnerHTML={{
                     __html: `
                         
