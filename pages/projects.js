@@ -46,7 +46,7 @@ function projects(props) {
                             </Zoom>
                         </div>
                         <div className={styles.titleContainer}>
-                            <span className={styles.number}>No.<span>4</span></span>
+                            <span className={styles.number}>No.<span>1</span></span>
                             <h4>Knots</h4>
                             <a className={styles.link} href='https://jovial-nobel-308250.netlify.app/' rel="noopener noreferrer" target='_blank'>
                                 <span className='fas fa-external-link-alt'></span>
@@ -66,7 +66,7 @@ function projects(props) {
                             </Zoom>
                         </div>
                         <div className={styles.titleContainer}>
-                            <span className={styles.number}>No.<span>3</span></span>
+                            <span className={styles.number}>No.<span>2</span></span>
                             <h4>MERN Stack</h4>
                             <a className={styles.link} href='https://inspiring-visvesvaraya-fd5979.netlify.app/' rel="noopener noreferrer" target='_blank'>
                                 <span className='fas fa-external-link-alt'></span>
@@ -81,7 +81,7 @@ function projects(props) {
                             </Zoom>
                         </div>
                         <div className={styles.titleContainer}>
-                            <span className={styles.number}>No.<span>2</span></span>
+                            <span className={styles.number}>No.<span>3</span></span>
                             <h4>Vanilla Js</h4>
                             <a className={styles.link} href='https://flamboyant-sinoussi-7ab217.netlify.app/' rel="noopener noreferrer" target='_blank'>
                                 <span className='fas fa-external-link-alt'></span>
@@ -98,7 +98,7 @@ function projects(props) {
                             </Zoom>
                         </div>
                         <div className={styles.titleContainer}>
-                            <span className={styles.number}>No.<span>1</span></span>
+                            <span className={styles.number}>No.<span>4</span></span>
                             <h4>HTML and CSS</h4>
                             <a className={styles.link} href='https://mirozdevkota.netlify.app/' rel="noopener noreferrer" target='_blank'>
                                 <span className='fas fa-external-link-alt'></span>
