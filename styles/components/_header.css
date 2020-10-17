@@ -1,49 +1,44 @@
-.header{
-    padding: 25px 0;
-   
-    width: 100%;
+.header {
+  padding: 25px 0;
+
+  width: 100%;
 }
 
 .header ul {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .header li {
-    padding: 5px 21px;
+  padding: 5px 21px;
 }
 
-.header ul li{
-    list-style: none;
+.header ul li {
+  list-style: none;
 }
 
-.header a{
-    position: relative;
-    font-size: 21px;
-    font-weight: 700;
-    color: #111111;
+.header a {
+  position: relative;
+  font-size: 21px;
+  font-weight: 700;
+  color: #111111;
 }
 
-.header .active{
-    color: #936be4;
+.header .active {
+  color: #936be4;
 }
 
-.header a:hover{
-    color: #936be4;
-    transition: color 0.3s linear;
+.header a:hover {
+  color: #936be4;
+  transition: color 0.3s linear;
 }
 
-@media (min-width:768px){
-    /* if width is > 768 hide it */
-        
-
+@media (min-width: 768px) {
+  /* if width is > 768 hide it */
 }
 
-@media (max-width:768px){
-    /* if width is < 768 show it */
-
-
+@media (max-width: 768px) {
+  /* if width is < 768 show it */
 }
-

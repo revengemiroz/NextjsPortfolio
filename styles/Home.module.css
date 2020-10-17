@@ -1,4 +1,4 @@
-.container{
+.container {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -8,37 +8,33 @@
   height: 100%;
 }
 
-.name{
+.name {
   padding: 80px 50px 0 50px;
   text-align: center;
-  font-size: clamp(1rem, 10vw, 2rem); 
+  font-size: clamp(1rem, 10vw, 2rem);
   width: 100%;
   max-width: 600px;
   font-weight: 800;
-  /* border: 2px solid green; */
 }
 
-.description{
-  /* border: 2px solid green; */
+.description {
   padding: 0px 20px 0 20px;
   width: 100%;
-  max-width: 600px;  
+  max-width: 600px;
   text-align: center;
   font-size: 18px;
-  font-weight: 400;   
+  font-weight: 400;
 }
 
-.description a{
+.description a {
   color: #d30320;
   cursor: pointer;
   position: relative;
 }
 
-
-.description a:hover{
+.description a:hover {
   color: #000000;
-  transition: color 0.7s linear ;
-  
+  transition: color 0.7s linear;
 }
 
 .description a:before {
@@ -57,12 +53,10 @@
 .description a:hover::before {
   visibility: visible;
   transform: scaleX(1);
-  
 }
 
-@media (max-width:500px){
-
-  .name{
+@media (max-width: 500px) {
+  .name {
     padding: 40px 0 0 0;
   }
 }

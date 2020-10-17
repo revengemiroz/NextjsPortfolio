@@ -1,143 +1,136 @@
-.containers{
-    flex:1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 50px 50px 50px;
+.containers {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 50px 50px 50px;
 }
 
-.projects{
-    width: 100%;
-    max-width: 600px;
-    padding: 100px 0;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 800;
+.projects {
+  width: 100%;
+  max-width: 600px;
+  padding: 100px 0;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
 }
 
-.commingSoon{
-    width: 100%;
-    max-width: 600px;
-    padding: 0px 0 70px 0;
+.commingSoon {
+  width: 100%;
+  max-width: 600px;
+  padding: 0px 0 70px 0;
 }
 
-.projectCollection{
-    width: 100%;
-    max-width: 1200px;
-    
-    padding: 10px 0px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.projectCollection {
+  width: 100%;
+  max-width: 1200px;
+
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.project{
-    margin: 20px 10px;
-    width: 330px;
+.project {
+  margin: 20px 10px;
+  width: 330px;
 }
 
-.imgContainer{
-    width: 100%;
-    object-fit: cover;
+.imgContainer {
+  width: 100%;
+  object-fit: cover;
 }
 
-.imgContainer img{
-    width: 100%;
-    height: 100%;
-    display: block;
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
-.titleContainer{
-    margin: 15px 0 0 0;
-   
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.titleContainer {
+  margin: 15px 0 0 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.titleContainer:hover{
-    margin: 15px 0 0 0;   
-    display: flex;
-    color: #d30320;
+.titleContainer:hover {
+  margin: 15px 0 0 0;
+  display: flex;
+  color: #d30320;
 }
 
-.link{
-     cursor: pointer;
+.link {
+  cursor: pointer;
 }
 
+.titleContainer h4,
+.titleContainer a {
+  margin: 0px 0 0 20px;
 
-
-.titleContainer h4,.titleContainer a{
-    margin: 0px 0 0 20px;  
-    
-    word-wrap: break-word;
+  word-wrap: break-word;
 }
 
-.titleContainer h4,.titleContainer a{
-    margin: 0px 0 0 20px;
+.titleContainer h4,
+.titleContainer a {
+  margin: 0px 0 0 20px;
 }
 
-
-.number{
-    font-weight: 700;
+.number {
+  font-weight: 700;
 }
 
-.number:hover{
-    color: #d30320;  
-    font-weight: 700;
+.number:hover {
+  color: #d30320;
+  font-weight: 700;
 }
 
+@media (max-width: 450px) {
+  /* if width is < 450 hide it */
 
-@media (max-width:450px){
-    /* if width is < 450 hide it */
- 
-    .containers{
-        padding: 0 20px;
-    }
-    
-    .projectCollection{
-        padding: 0px 0px;
-    }
+  .containers {
+    padding: 0 20px;
+  }
 
+  .projectCollection {
+    padding: 0px 0px;
+  }
 }
 
 .project__thumbnail {
-    transition: transform var(--tr-part);
-  }
-  
-  .project__thumbnail:hover {
-    transform: scale(1.05);
-  }
+  transition: transform var(--tr-part);
+}
 
-  .containers a{
-    color: #d30320;
-    cursor: pointer;
-    position: relative;
-  }
-  
-  
-  .containers a:hover{
-    color: #000000;
-    transition: color 0.7s linear ;
-    
-  }
-  
-  .containers a:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    background-color: #d30320;
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.3s ease-in-out 0s;
-  }
-  
-  .containers a:hover::before {
-    visibility: visible;
-    transform: scaleX(1);
-    
-  }
-  
+.project__thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.containers a {
+  color: #d30320;
+  cursor: pointer;
+  position: relative;
+}
+
+.containers a:hover {
+  color: #000000;
+  transition: color 0.7s linear;
+}
+
+.containers a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #d30320;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.containers a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}

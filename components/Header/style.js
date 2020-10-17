@@ -1,4 +1,4 @@
-import style from 'styled-components';
+import style from "styled-components";
 
 export const Nav = style.nav`
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');

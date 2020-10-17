@@ -1,118 +1,138 @@
 /* footer */
 
-.footer{
+.footer {
   margin: 50px 0 0 0;
-    padding: 15px 0;
-    width: 100%;
-    border-top: 1px solid #eaeaea;
+  padding: 15px 0;
+  width: 100%;
+  border-top: 1px solid #eaeaea;
 }
 
-.footer ul{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
+.footer ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer li {
-    padding:10px 10px;
+  padding: 10px 10px;
 }
 
-.footer a{
-    font-size: 22px;
-    cursor: pointer;
+.footer a {
+  font-size: 22px;
+  cursor: pointer;
 }
 
-.footer a:hover{
-    transition: color 0.3s linear ;
+.footer a:hover {
+  transition: color 0.3s linear;
 }
 
-.footer ul li{
-    list-style: none;
+.footer ul li {
+  list-style: none;
 }
 
 /* new */
 
-.box a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 42px;
-    height: 42px;
-    border: 1px solid #d5dbf2;
-    border-radius: 100%;
-    margin-left: 0px;
-    text-decoration: none;
-    text-align: center;
-    transition: all 0.3s;
-  }
-  
-  .box a::after {
-    z-index: -5;
-    content: "";
-    width: 42px;
-    height: 42px;
-    background-color: #222222;
-    border-radius: 100%;
-    position: absolute;
-    opacity: 0;
-    transform: scale(0.3);
-    transition: all 0.3s ease;
-  }
+.box a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #d5dbf2;
+  border-radius: 100%;
+  margin-left: 0px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s;
+}
 
-  .footer .linkedin{
-    color: black;
-  }
+.box a::after {
+  z-index: -5;
+  content: "";
+  width: 42px;
+  height: 42px;
+  background-color: #222222;
+  border-radius: 100%;
+  position: absolute;
+  opacity: 0;
+  transform: scale(0.3);
+  transition: all 0.3s ease;
+}
 
-  .footer .linkedin::after{
-    background-color: #0077b5;
-  }
-  
-  .footer .twitter{
-    color: black;
-  }
+.footer .linkedin {
+  color: black;
+}
 
-  .footer .twitter:hover{
-    color: #1da1f2;
-  }
+.footer .linkedin::after {
+  background-color: #0077b5;
+}
 
-  .footer .twitter::after{
-    color: #1da1f2;
-    background-color: rgba(29, 161, 242, 0.2);
-  }
+.footer .twitter {
+  color: black;
+}
 
-  .footer .instagram{
-    color: black;
-    }
+.footer .twitter:hover {
+  color: #1da1f2;
+}
 
-  .footer .instagram:hover{
-    color:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  }
+.footer .twitter::after {
+  color: #1da1f2;
+  background-color: rgba(29, 161, 242, 0.2);
+}
 
-  .footer .instagram::after{
-    color:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  }
-  
+.footer .instagram {
+  color: black;
+}
 
-  .box a:hover::after {
-    opacity: 1;
-    transform: scale(1);
-  }
-  
-  .box i {
-    color: white;
-    width: 38px;
-    height: auto;
-    transition: all 0.3s ease;
-  }
-  
-  .box a:hover {
-    border: 0;
-    transition: border 0.6s;
-    transform: translateY(-7px);
-  }
-  
-  .box a:hover {
-    color: #fff;
-  }
+.footer .instagram:hover {
+  color: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.footer .instagram::after {
+  color: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.box a:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.box i {
+  color: white;
+  width: 38px;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.box a:hover {
+  border: 0;
+  transition: border 0.6s;
+  transform: translateY(-7px);
+}
+
+.box a:hover {
+  color: #fff;
+}
