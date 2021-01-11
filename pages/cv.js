@@ -419,6 +419,42 @@ function cv(props) {
                   <li>Building a prototype for company's new product line</li>
                 </p>
               </div>
+
+              <div className={styles.edulist}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                >
+                  <circle
+                    cx="10"
+                    cy="10"
+                    r="8.5"
+                    fill="white"
+                    stroke="black"
+                    strokeWidth="3"
+                  />
+                </svg>
+
+                <p>
+                  <p>
+                    <span className={styles.strong}>INTERN</span> | SEP, 2020 -
+                    JAN, 2021
+                  </p>
+                  <p className={styles.subTitle}>Fizure (PlanYard) </p>
+
+                  <li>Writing reusable UI component to make work faster.</li>
+                  <li>Writing & testing components.</li>
+                  <li>
+                    Working with team in pair programming to complete task
+                  </li>
+                  <li>
+                    Managing production level code after multiple iteration.
+                  </li>
+                </p>
+              </div>
             </div>
 
             {/* the end */}
