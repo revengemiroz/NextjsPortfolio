@@ -33,22 +33,25 @@ function about(props) {
         <p className={styles.about}>About</p>
 
         <p className={styles.moviestext}>
-          I am a Front End Developer based in Nepal, Kathmandu. I enjoy
-          implementing unique design and features for the projects I undertake.
-          I also love the logic and structure that goes behind the development
-          process and always strive to write elegant and efficient code whether
-          it be HTML, CSS or REACT JS.
+          I am a Front End Developer based in Nepal, Kathmandu. I
+          enjoy implementing unique design and features for the
+          projects I undertake. I also love the logic and structure
+          that goes behind the development process and always strive
+          to write elegant and efficient code whether it be HTML, CSS
+          or REACT JS.
           <br></br>
           <br></br>
-          When I am not coding i like to watch movies. Some of the regions that
-          I watch movies from are USA, Korean, Taiwanese, and Thailand. Some of
-          the movies that I really like are listed below so give my list a try
-          and see if you like some of them.
+          When I am not coding i like to watch movies. Some of the
+          regions that I watch movies from are USA, Korean, Taiwanese,
+          and Thailand. Some of the movies that I really like are
+          listed below so give my list a try and see if you like some
+          of them.
         </p>
 
         <h1 className={styles.movies}>Movies</h1>
         <div className={styles.movieslistContainer}>
           <div className={styles.leftside}>
+            {/* full width of desktop */}
             {width <= 650 ? (
               <ul>
                 <li>
@@ -60,7 +63,6 @@ function about(props) {
                       The Possession of Hannah Grace
                     </a>
                   </span>
-                  <span className={styles.date}> (2018)</span>
                 </li>
 
                 <li>
@@ -244,7 +246,6 @@ function about(props) {
                           The Possession of Hannah Grace
                         </a>
                       </span>
-                      <span className={styles.date}> (2018)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -267,7 +268,6 @@ function about(props) {
                           The Crucifixion
                         </a>
                       </span>
-                      <span className={styles.date}> (2017)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -290,7 +290,6 @@ function about(props) {
                           Truth or Dare
                         </a>
                       </span>
-                      <span className={styles.date}> (2018)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -313,7 +312,6 @@ function about(props) {
                           The Babysitter
                         </a>
                       </span>
-                      <span className={styles.date}> (2017)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -336,7 +334,6 @@ function about(props) {
                           Extraction
                         </a>
                       </span>
-                      <span className={styles.date}> (2020)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -359,7 +356,6 @@ function about(props) {
                           6 Underground
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -382,7 +378,6 @@ function about(props) {
                           The Old Guard
                         </a>
                       </span>
-                      <span className={styles.date}> (2020)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -405,7 +400,6 @@ function about(props) {
                           The Platform
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -428,7 +422,6 @@ function about(props) {
                           John Wick: Chapter 3 - Parabellum
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -451,7 +444,6 @@ function about(props) {
                           John Wick: Chapter 2
                         </a>
                       </span>
-                      <span className={styles.date}> (2017)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -474,7 +466,6 @@ function about(props) {
                           Godzilla: King of the Monsters
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -497,7 +488,6 @@ function about(props) {
                           Brightburn
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -520,7 +510,6 @@ function about(props) {
                           Pokémon Detective Pikachu
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -543,7 +532,6 @@ function about(props) {
                           Spider-Man: Far from Home
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -566,7 +554,6 @@ function about(props) {
                           21 Bridges
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -593,7 +580,6 @@ function about(props) {
                       Joker
                     </a>
                   </span>
-                  <span className={styles.date}> (2019)</span>
                 </li>
 
                 <li>
@@ -764,7 +750,6 @@ function about(props) {
                           Joker
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -787,7 +772,6 @@ function about(props) {
                           Greyhound
                         </a>
                       </span>
-                      <span className={styles.date}> (2020)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -832,7 +816,6 @@ function about(props) {
                           Escape Room
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -855,7 +838,6 @@ function about(props) {
                           Annabelle Comes Home
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -878,7 +860,6 @@ function about(props) {
                           The Nun
                         </a>
                       </span>
-                      <span className={styles.date}> (2018)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -901,7 +882,6 @@ function about(props) {
                           The Hunt
                         </a>
                       </span>
-                      <span className={styles.date}> (2020)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -924,7 +904,6 @@ function about(props) {
                           Underwater
                         </a>
                       </span>
-                      <span className={styles.date}> (2020)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -947,7 +926,6 @@ function about(props) {
                           Hunter Killer
                         </a>
                       </span>
-                      <span className={styles.date}> (2018)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -970,7 +948,6 @@ function about(props) {
                           Fantasy Island
                         </a>
                       </span>
-                      <span className={styles.date}> (2020)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -993,7 +970,6 @@ function about(props) {
                           Ready or Not
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -1016,7 +992,6 @@ function about(props) {
                           Doctor Sleep
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -1039,7 +1014,6 @@ function about(props) {
                           Pet Sematary
                         </a>
                       </span>
-                      <span className={styles.date}> (2019)</span>
                     </Trigger>
                     <Hover type="hover">
                       <OnTrigger
@@ -1358,7 +1332,10 @@ function about(props) {
         <div className={styles.gameslistContainer}>
           <div className={styles.game}>
             <div className={styles.imgContainer}>
-              <a href="https://playvalorant.com/en-us/" target="_blank">
+              <a
+                href="https://playvalorant.com/en-us/"
+                target="_blank"
+              >
                 <img src={Valorant}></img>
               </a>
             </div>
@@ -1368,7 +1345,10 @@ function about(props) {
 
           <div className={styles.game}>
             <div className={styles.imgContainer}>
-              <a href="https://na.leagueoflegends.com/en-us/" target="_blank">
+              <a
+                href="https://na.leagueoflegends.com/en-us/"
+                target="_blank"
+              >
                 <img src={LeagueOfLegend}></img>
               </a>
             </div>
@@ -1378,7 +1358,10 @@ function about(props) {
 
           <div className={styles.game}>
             <div className={styles.imgContainer}>
-              <a href="https://www.ea.com/games/fifa/fifa-20" target="_blank">
+              <a
+                href="https://www.ea.com/games/fifa/fifa-20"
+                target="_blank"
+              >
                 <img src={Fifa}></img>
               </a>
             </div>
