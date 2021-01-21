@@ -17,7 +17,7 @@ import styles from "../styles/pages/about.module.css";
 let optionsCursorTrueWithMargin = {
   followCursor: true,
   shiftX: 50,
-  shiftY: -40,
+  shiftY: -40
 };
 
 // const windowGlobal = typeof window !== 'undefined' && window
