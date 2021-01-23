@@ -45,7 +45,7 @@ const gameImg = (gameName) => {
 };
 
 function about(props) {
-  const [width, height] = windowsize();
+  const [width, _height] = windowsize();
 
   return (
     <Layout title="About | Miroz Devkota">
@@ -128,18 +128,36 @@ function about(props) {
           </div>
         </div>
 
-        {/* anime list */}
         <h1 className={styled.movies}>Anime</h1>
         <div className={styled.movieslistContainer}>
           <div className={styled.leftside}>
             <ul>
               {anime_left.map((anime) => (
-                <li>
-                  <span>
-                    <a href={anime.anime_link} target="_blank">
-                      {anime.anime_name}
-                    </a>
-                  </span>
+                <li key={anime.id}>
+                  {width <= 650 ? (
+                    <span>
+                      <a href={anime.anime_link} target="_blank">
+                        {anime.anime_name}
+                      </a>
+                    </span>
+                  ) : (
+                    <ReactHover options={optionsCursorTrueWithMargin}>
+                      <Trigger type="trigger">
+                        <span>
+                          <a href={anime.anime_link} target="_blank">
+                            {anime.anime_name}
+                          </a>
+                        </span>
+                      </Trigger>
+                      <Hover type="hover">
+                        <OnTrigger
+                          img={anime.img_path}
+                          movietitle={anime.anime_name}
+                          description={anime.description}
+                        ></OnTrigger>
+                      </Hover>
+                    </ReactHover>
+                  )}
                 </li>
               ))}
             </ul>
@@ -148,12 +166,31 @@ function about(props) {
           <div className={styled.rightside}>
             <ul>
               {anime_right.map((anime) => (
-                <li>
-                  <span>
-                    <a href={anime.anime_link} target="_blank">
-                      {anime.anime_name}
-                    </a>
-                  </span>
+                <li key={anime.id}>
+                  {width <= 650 ? (
+                    <span>
+                      <a href={anime.anime_link} target="_blank">
+                        {anime.anime_name}
+                      </a>
+                    </span>
+                  ) : (
+                    <ReactHover options={optionsCursorTrueWithMargin}>
+                      <Trigger type="trigger">
+                        <span>
+                          <a href={anime.anime_link} target="_blank">
+                            {anime.anime_name}
+                          </a>
+                        </span>
+                      </Trigger>
+                      <Hover type="hover">
+                        <OnTrigger
+                          img={anime.img_path}
+                          movietitle={anime.anime_name}
+                          description={anime.description}
+                        ></OnTrigger>
+                      </Hover>
+                    </ReactHover>
+                  )}
                 </li>
               ))}
             </ul>

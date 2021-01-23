@@ -306,14 +306,14 @@ export const anime_left = [
     id: 1,
     anime_name: "One Piece",
     anime_link: "https://myanimelist.net/anime/21/One_Piece",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
     description: ""
   },
   {
     id: 2,
     anime_name: "Naruto",
     anime_link: "https://myanimelist.net/anime/20/Naruto",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/13/17405.jpg",
     description: ""
   },
   {
@@ -321,7 +321,7 @@ export const anime_left = [
     anime_name: "Hunter x Hunter",
     anime_link:
       "https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/11/33657.jpg",
     description: ""
   },
   {
@@ -329,14 +329,15 @@ export const anime_left = [
     anime_name: "Fullmetal Alchemist: Brotherhood",
     anime_link:
       "https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood",
-    img_path: "",
+    img_path:
+      "https://cdn.myanimelist.net/images/anime/1223/96541.jpg",
     description: ""
   },
   {
     id: 5,
     anime_name: "Your Name",
     anime_link: "https://myanimelist.net/anime/32281/Kimi_no_Na_wa",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/5/87048.jpg",
     description: ""
   },
   {
@@ -344,42 +345,43 @@ export const anime_left = [
     anime_name: "Attack on Titan",
     anime_link:
       "https://myanimelist.net/anime/38524/Shingeki_no_Kyojin_Season",
-    img_path: "",
+    img_path:
+      "https://cdn.myanimelist.net/images/anime/1517/100633.jpg",
     description: ""
   },
   {
     id: 7,
     anime_name: "Seraph of the End: Vampire Reign",
     anime_link: "https://myanimelist.net/anime/26243/Owari_no_Seraph",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/5/73474.jpg",
     description: ""
   },
   {
     id: 8,
     anime_name: "Tokyo Ghoul",
     anime_link: "https://myanimelist.net/anime/22319/Tokyo_Ghoul",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/5/64449.jpg",
     description: ""
   },
   {
     id: 9,
     anime_name: "Blue Exorcist",
     anime_link: "https://myanimelist.net/anime/9919/Ao_no_Exorcist",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/10/75195.jpg",
     description: ""
   },
   {
     id: 10,
     anime_name: "Black Clover",
     anime_link: "https://myanimelist.net/anime/34572/Black_Clover",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/2/88336.jpg",
     description: ""
   },
   {
     id: 11,
     anime_name: "Fairy Tail",
     anime_link: "https://myanimelist.net/anime/6702/Fairy_Tail",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/5/18179.jpg",
     description: ""
   },
   {
@@ -387,7 +389,7 @@ export const anime_left = [
     anime_name: "The Seven Deadly Sins",
     anime_link:
       "https://myanimelist.net/anime/23755/Nanatsu_no_Taizai",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/8/65409.jpg",
     description: ""
   }
 ];
@@ -398,7 +400,7 @@ export const anime_right = [
     anime_name: "Code Geass: Lelouch of the Rebellion R2",
     anime_link:
       "https://myanimelist.net/anime/23755/Nanatsu_no_Taizai",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/8/65409.jpg",
     description: ""
   },
   {
@@ -406,28 +408,31 @@ export const anime_right = [
     anime_name: "Demon Slayer: Kimetsu no Yaiba",
     anime_link:
       "https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba",
-    img_path: "",
+    img_path:
+      "https://cdn.myanimelist.net/images/anime/1286/99889.jpg",
     description: ""
   },
   {
     id: 15,
     anime_name: "Dororo",
     anime_link: "https://myanimelist.net/anime/37520/Dororo",
-    img_path: "",
+    img_path:
+      "https://cdn.myanimelist.net/images/anime/1879/100467.jpg",
     description: ""
   },
   {
     id: 16,
     anime_name: "Tokyo Ghoul",
     anime_link: "https://myanimelist.net/anime/22319/Tokyo_Ghoul",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/5/64449.jpg",
     description: ""
   },
   {
     id: 17,
     anime_name: "Deca-Dence",
     anime_link: "https://myanimelist.net/anime/40056/Deca-Dence",
-    img_path: "",
+    img_path:
+      "https://cdn.myanimelist.net/images/anime/1627/107552.jpg",
     description: ""
   },
   {
@@ -435,7 +440,8 @@ export const anime_right = [
     anime_name: "The God of High School",
     anime_link:
       "https://myanimelist.net/anime/41353/The_God_of_High_School",
-    img_path: "",
+    img_path:
+      "https://cdn.myanimelist.net/images/anime/1722/107269.jpg",
     description: ""
   },
   {
@@ -443,14 +449,16 @@ export const anime_right = [
     anime_name: "Fire Force",
     anime_link:
       "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou",
-    img_path: "",
+    img_path:
+      "https://cdn.myanimelist.net/images/anime/1673/107657.jpg",
     description: ""
   },
   {
     id: 20,
     anime_name: "Gibiate",
     anime_link: "https://myanimelist.net/anime/40074/Gibiate",
-    img_path: "",
+    img_path:
+      "https://cdn.myanimelist.net/images/anime/1769/107880.jpg",
     description: ""
   },
   {
@@ -458,14 +466,14 @@ export const anime_right = [
     anime_name: "Re:ZERO -Starting Life in Another World-",
     anime_link:
       "https://myanimelist.net/anime/31240/Re_Zero_kara_Hajimeru_Isekai_Seikatsu",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/11/79410.jpg",
     description: ""
   },
   {
     id: 22,
     anime_name: "Death Note",
     anime_link: "https://myanimelist.net/anime/1535/Death_Note",
-    img_path: "",
+    img_path: "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
     description: ""
   }
 ];
