@@ -399,8 +399,8 @@ export const anime_right = [
     id: 13,
     anime_name: "Code Geass: Lelouch of the Rebellion R2",
     anime_link:
-      "https://myanimelist.net/anime/23755/Nanatsu_no_Taizai",
-    img_path: "https://cdn.myanimelist.net/images/anime/8/65409.jpg",
+      "https://myanimelist.net/anime/2904/Code_Geass__Hangyaku_no_Lelouch_R2",
+    img_path: "https://cdn.myanimelist.net/images/anime/4/9391.jpg",
     description: ""
   },
   {
