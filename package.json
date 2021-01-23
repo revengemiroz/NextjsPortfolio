@@ -18,5 +18,8 @@
     "react-hover": "^2.0.0",
     "react-medium-image-zoom": "^4.3.1",
     "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
   }
 }
