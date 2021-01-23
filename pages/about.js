@@ -201,14 +201,18 @@ function about(props) {
 
         <div className={styled.gameslistContainer}>
           {GAMES.map((game) => (
-            <div className={styled.game}>
+            <div key={game.id} className={styled.game}>
               <div className={styled.imgContainer}>
                 <a href={game.game_link} target="_blank">
                   <img src={gameImg(game.game_name)}></img>
                 </a>
               </div>
 
-              <span>{game.game_name}</span>
+              <span>
+                {width <= 650 && game.game_name === "League of Legend"
+                  ? "LOL"
+                  : game.game_name}
+              </span>
             </div>
           ))}
         </div>
