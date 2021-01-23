@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactHover, { Trigger, Hover } from "react-hover";
 
 import windowsize from "../components/windowsize";

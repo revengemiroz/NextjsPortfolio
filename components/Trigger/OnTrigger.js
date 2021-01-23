@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "../../styles/components/_OnTrigger.module.css";
 
-function OnTrigger({ children, img, description, movietitle }) {
+function OnTrigger({ img, description, movietitle }) {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
