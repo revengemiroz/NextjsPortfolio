@@ -1,11 +1,29 @@
+export const movies_text = {
+  1: {
+    data: `I am a Front End Developer based in Nepal, Kathmandu.
+    I enjoy implementing unique design and features for the
+    projects I undertake. I also love the logic and structure
+    that goes behind the development process and always strive
+    to write elegant and efficient code whether it be HTML, CSS
+    or REACT JS.`
+  },
+  2: {
+    data: `When I am not coding i like to watch movies. Some of the
+    regions that I watch movies from are USA, Korean, Taiwanese,
+    and Thailand. Some of the movies that I really like are
+    listed below so give my list a try and see if you like some
+    of them.`
+  }
+};
+
 export const movies_left = [
   {
     id: 1,
-    movie_name: "The Possession of Hannah Grace (2018)",
+    movie_name: "The Possession of Hannah Grace",
     movie_link:
       "https://www.themoviedb.org/movie/434555-the-possession-of-hannah-grace",
     img_path:
-      "https://www.themoviedb.org/movie/434555-the-possession-of-hannah-grace",
+      "https://image.tmdb.org/t/p/w220_and_h330_face/hDDb0H0uJp2wjoJBbBHbKlYRbug.jpg",
     description:
       "When a cop who is just out of rehab takes the graveyard shift in a city hospital morgue, she faces a series of bizarre, violent events caused by an evil entity in one of the corpses."
   },
@@ -280,5 +298,192 @@ export const movies_right = [
       "https://image.tmdb.org/t/p/w220_and_h330_face/jhZlXSnFUpNiLAek9EkPrtLEWQI.jpg",
     description:
       "A social worker dealing with the disappearance of two children fears for her own family after beginning the investigation."
+  }
+];
+
+export const anime_left = [
+  {
+    id: 1,
+    anime_name: "One Piece",
+    anime_link: "https://myanimelist.net/anime/21/One_Piece",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 2,
+    anime_name: "Naruto",
+    anime_link: "https://myanimelist.net/anime/20/Naruto",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 3,
+    anime_name: "Hunter x Hunter",
+    anime_link:
+      "https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 4,
+    anime_name: "Fullmetal Alchemist: Brotherhood",
+    anime_link:
+      "https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 5,
+    anime_name: "Your Name",
+    anime_link: "https://myanimelist.net/anime/32281/Kimi_no_Na_wa",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 6,
+    anime_name: "Attack on Titan",
+    anime_link:
+      "https://myanimelist.net/anime/38524/Shingeki_no_Kyojin_Season",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 7,
+    anime_name: "Seraph of the End: Vampire Reign",
+    anime_link: "https://myanimelist.net/anime/26243/Owari_no_Seraph",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 8,
+    anime_name: "Tokyo Ghoul",
+    anime_link: "https://myanimelist.net/anime/22319/Tokyo_Ghoul",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 9,
+    anime_name: "Blue Exorcist",
+    anime_link: "https://myanimelist.net/anime/9919/Ao_no_Exorcist",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 10,
+    anime_name: "Black Clover",
+    anime_link: "https://myanimelist.net/anime/34572/Black_Clover",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 11,
+    anime_name: "Fairy Tail",
+    anime_link: "https://myanimelist.net/anime/6702/Fairy_Tail",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 12,
+    anime_name: "The Seven Deadly Sins",
+    anime_link:
+      "https://myanimelist.net/anime/23755/Nanatsu_no_Taizai",
+    img_path: "",
+    description: ""
+  }
+];
+
+export const anime_right = [
+  {
+    id: 13,
+    anime_name: "Code Geass: Lelouch of the Rebellion R2",
+    anime_link:
+      "https://myanimelist.net/anime/23755/Nanatsu_no_Taizai",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 14,
+    anime_name: "Demon Slayer: Kimetsu no Yaiba",
+    anime_link:
+      "https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 15,
+    anime_name: "Dororo",
+    anime_link: "https://myanimelist.net/anime/37520/Dororo",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 16,
+    anime_name: "Tokyo Ghoul",
+    anime_link: "https://myanimelist.net/anime/22319/Tokyo_Ghoul",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 17,
+    anime_name: "Deca-Dence",
+    anime_link: "https://myanimelist.net/anime/40056/Deca-Dence",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 18,
+    anime_name: "The God of High School",
+    anime_link:
+      "https://myanimelist.net/anime/41353/The_God_of_High_School",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 19,
+    anime_name: "Fire Force",
+    anime_link:
+      "https://myanimelist.net/anime/40956/Enen_no_Shouboutai__Ni_no_Shou",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 20,
+    anime_name: "Gibiate",
+    anime_link: "https://myanimelist.net/anime/40074/Gibiate",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 21,
+    anime_name: "Re:ZERO -Starting Life in Another World-",
+    anime_link:
+      "https://myanimelist.net/anime/31240/Re_Zero_kara_Hajimeru_Isekai_Seikatsu",
+    img_path: "",
+    description: ""
+  },
+  {
+    id: 22,
+    anime_name: "Death Note",
+    anime_link: "https://myanimelist.net/anime/1535/Death_Note",
+    img_path: "",
+    description: ""
+  }
+];
+
+export const GAMES = [
+  {
+    id: 1,
+    game_name: "Valorant",
+    game_link: "https://playvalorant.com/en-us/"
+  },
+  {
+    id: 2,
+    game_name: "League of Legend",
+    game_link: "https://na.leagueoflegends.com/en-us/"
+  },
+  {
+    id: 3,
+    game_name: "Fifa",
+    game_link: "https://www.ea.com/games/fifa/fifa-21"
   }
 ];
