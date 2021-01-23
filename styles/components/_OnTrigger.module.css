@@ -1,6 +1,5 @@
 .container {
   border-radius: 10px;
-
   width: 100%;
   max-width: 600px;
   display: flex;
@@ -16,7 +15,7 @@
   display: block;
   border-radius: 7px;
   object-fit: cover;
-  animation: imgs 0.5s ease;
+  animation: imgs 0.3s ease-in;
 }
 
 .description {
