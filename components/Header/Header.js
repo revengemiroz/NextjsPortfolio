@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-function Header(props) {
-  const [isMobileMenuVisible, toggleMobileMenu] = React.useState(false);
+function Header() {
+  const [isMobileMenuVisible, toggleMobileMenu] = useState(false);
 
   const router = useRouter();
 
@@ -14,15 +14,23 @@ function Header(props) {
           <li>
             <span>
               <Link href="/">
-                <a className={router.pathname == "/" ? "active" : ""}>Home</a>
+                <a className={router.pathname == "/" ? "active" : ""}>
+                  Home
+                </a>
               </Link>
             </span>
           </li>
 
           <li>
-            <span onClick={() => toggleMobileMenu(!isMobileMenuVisible)}>
+            <span
+              onClick={() => toggleMobileMenu(!isMobileMenuVisible)}
+            >
               <Link href="/projects">
-                <a className={router.pathname == "/projects" ? "active" : ""}>
+                <a
+                  className={
+                    router.pathname == "/projects" ? "active" : ""
+                  }
+                >
                   Projects
                 </a>
               </Link>
@@ -42,7 +50,11 @@ function Header(props) {
           <li>
             <span>
               <Link href="/blog">
-                <a className={router.pathname == "/blog" ? "active" : ""}>
+                <a
+                  className={
+                    router.pathname == "/blog" ? "active" : ""
+                  }
+                >
                   Blog
                 </a>
               </Link>
@@ -50,9 +62,15 @@ function Header(props) {
           </li>
 
           <li>
-            <span onClick={() => toggleMobileMenu(!isMobileMenuVisible)}>
+            <span
+              onClick={() => toggleMobileMenu(!isMobileMenuVisible)}
+            >
               <Link href="/about">
-                <a className={router.pathname == "/about" ? "active" : ""}>
+                <a
+                  className={
+                    router.pathname == "/about" ? "active" : ""
+                  }
+                >
                   About Me
                 </a>
               </Link>
@@ -60,9 +78,15 @@ function Header(props) {
           </li>
 
           <li>
-            <span onClick={() => toggleMobileMenu(!isMobileMenuVisible)}>
+            <span
+              onClick={() => toggleMobileMenu(!isMobileMenuVisible)}
+            >
               <Link href="/contact">
-                <a className={router.pathname == "/contact" ? "active" : ""}>
+                <a
+                  className={
+                    router.pathname == "/contact" ? "active" : ""
+                  }
+                >
                   Contact
                 </a>
               </Link>

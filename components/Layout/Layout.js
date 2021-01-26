@@ -34,7 +34,7 @@ function Layout({ children, page, title, image }) {
 
                         gtag('config', 'UA-176053043-1');
                         
-                `,
+                `
             }}
           />
         </Head>

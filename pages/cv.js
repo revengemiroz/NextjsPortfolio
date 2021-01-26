@@ -60,11 +60,12 @@ function cv(props) {
               <span className={styles.header}>ABOUT ME</span>
 
               <p>
-                I am a Front End Developer based in Nepal, Kathmandu. I enjoy
-                implementing unique design and features for the projects I
-                undertake. I also love the logic and structure that goes behind
-                the development process and always strive to write elegant and
-                efficient code whether it be HTML, CSS or REACT JS.
+                I am a Front End Developer based in Nepal, Kathmandu.
+                I enjoy implementing unique design and features for
+                the projects I undertake. I also love the logic and
+                structure that goes behind the development process and
+                always strive to write elegant and efficient code
+                whether it be HTML, CSS or REACT JS.
               </p>
             </div>
 
@@ -182,7 +183,10 @@ function cv(props) {
               <span className={styles.header}>CONTACTS</span>
 
               <div className={styles.list}>
-                <a href="https://github.com/revengemiroz" target="_blank">
+                <a
+                  href="https://github.com/revengemiroz"
+                  target="_blank"
+                >
                   <div className={styles.icons}>
                     <img src={Github} alt="github" />
                   </div>
@@ -244,12 +248,14 @@ function cv(props) {
 
                 <p>
                   <p>
-                    <span className={styles.strong}>Bachelor's Degree</span> | ~
-                    FEB, 2019
+                    <span className={styles.strong}>
+                      Bachelor's Degree
+                    </span>{" "}
+                    | ~ FEB, 2019
                   </p>
                   <p style={{ maxWidth: "380px" }}>
-                    Nepal College of Information Technology, B.E in Software
-                    Engineering
+                    Nepal College of Information Technology, B.E in
+                    Software Engineering
                   </p>
                 </p>
               </div>
@@ -274,8 +280,10 @@ function cv(props) {
 
                 <p>
                   <p>
-                    <span className={styles.strong}>Intermediate</span> ( + 2 )
-                    &nbsp;|&nbsp; ~ DEC, 2013
+                    <span className={styles.strong}>
+                      Intermediate
+                    </span>{" "}
+                    ( + 2 ) &nbsp;|&nbsp; ~ DEC, 2013
                   </p>
 
                   <p>Prasadi Academy, HSEB</p>
@@ -302,8 +310,8 @@ function cv(props) {
 
                 <p>
                   <p>
-                    <span className={styles.strong}>SLC</span> ( GRADE 10 )
-                    &nbsp;|&nbsp; ~ DEC, 2011
+                    <span className={styles.strong}>SLC</span> ( GRADE
+                    10 ) &nbsp;|&nbsp; ~ DEC, 2011
                   </p>
 
                   <p>Graded English Medium School (GEMS)</p>
@@ -321,24 +329,26 @@ function cv(props) {
 
                 <p style={{ marginBottom: "5px" }}>
                   <p>
-                    <span className={styles.strong}>QUALITY ANALYST</span> |
-                    OCT, 2019 - DEC, 2019
+                    <span className={styles.strong}>
+                      QUALITY ANALYST
+                    </span>{" "}
+                    | OCT, 2019 - DEC, 2019
                   </p>
                   <p className={styles.subTitle}>TULIPS TECHNOLOGY</p>
 
                   <li>Check the products listing.</li>
                   <li>Check the supplier's details</li>
                   <li>
-                    Update any information regarding the - products or the
-                    supplier's
+                    Update any information regarding the - products or
+                    the supplier's
                   </li>
                   <li>
-                    Was responsible for maintaining the site and mobile app in 2
-                    languages (Nepali and English)
+                    Was responsible for maintaining the site and
+                    mobile app in 2 languages (Nepali and English)
                   </li>
                   <li>
-                    Was responsible for ﬁnding faults and bugs in the dev server
-                    and live deployments (web + app)
+                    Was responsible for ﬁnding faults and bugs in the
+                    dev server and live deployments (web + app)
                   </li>
                 </p>
               </div>
@@ -348,20 +358,22 @@ function cv(props) {
 
                 <p style={{ marginBottom: "5px" }}>
                   <p>
-                    <span className={styles.strong}>SUPERVISOR</span> | JUN,
-                    2019 - JUL, 2019
+                    <span className={styles.strong}>SUPERVISOR</span>{" "}
+                    | JUN, 2019 - JUL, 2019
                   </p>
                   <p className={styles.subTitle}>TOP ENTERPRISE</p>
 
                   <li>Maintaining designated websites.</li>
-                  <li>Supervising task to be done by a group of editors.</li>
                   <li>
-                    Update any information regarding the - products or the
-                    supplier's
+                    Supervising task to be done by a group of editors.
                   </li>
                   <li>
-                    Making sure task was handled correctly in the chain of
-                    command.
+                    Update any information regarding the - products or
+                    the supplier's
+                  </li>
+                  <li>
+                    Making sure task was handled correctly in the
+                    chain of command.
                   </li>
                 </p>
               </div>
@@ -371,19 +383,28 @@ function cv(props) {
 
                 <p style={{ marginBottom: "5px" }}>
                   <p>
-                    <span className={styles.strong}>QUALITY CHECKER</span> |
-                    JAN, 2019 - MAR, 2019
+                    <span className={styles.strong}>
+                      QUALITY CHECKER
+                    </span>{" "}
+                    | JAN, 2019 - MAR, 2019
                   </p>
                   <p className={styles.subTitle}>CLOUD FACTORY</p>
 
                   <li>Supervised 5 people</li>
                   <li>
-                    Trained more than 10 people on existing techniques and
-                    technologies
+                    Trained more than 10 people on existing techniques
+                    and technologies
                   </li>
-                  <li>Responsible for handling delivery of projects</li>
-                  <li>Checked the quality of the product before submission</li>
-                  <li>Handling my team of 5 people to maximize output</li>
+                  <li>
+                    Responsible for handling delivery of projects
+                  </li>
+                  <li>
+                    Checked the quality of the product before
+                    submission
+                  </li>
+                  <li>
+                    Handling my team of 5 people to maximize output
+                  </li>
                 </p>
               </div>
 
@@ -407,16 +428,21 @@ function cv(props) {
 
                 <p>
                   <p>
-                    <span className={styles.strong}>INTERN</span> | JAN, 2019 -
-                    MAR, 2019
+                    <span className={styles.strong}>INTERN</span> |
+                    JAN, 2019 - MAR, 2019
                   </p>
                   <p className={styles.subTitle}>CROSSOVER NEPAL</p>
 
                   <li>Studying & testing the in-house product.</li>
                   <li>Making design changes in the product</li>
                   <li>Managing documentation of the product.</li>
-                  <li>Maintaining coherence among the test builds.</li>
-                  <li>Building a prototype for company's new product line</li>
+                  <li>
+                    Maintaining coherence among the test builds.
+                  </li>
+                  <li>
+                    Building a prototype for company's new product
+                    line
+                  </li>
                 </p>
               </div>
 
@@ -440,18 +466,24 @@ function cv(props) {
 
                 <p>
                   <p>
-                    <span className={styles.strong}>INTERN</span> | SEP, 2020 -
-                    JAN, 2021
+                    <span className={styles.strong}>INTERN</span> |
+                    SEP, 2020 - JAN, 2021
                   </p>
-                  <p className={styles.subTitle}>Fizure (PlanYard) </p>
+                  <p className={styles.subTitle}>
+                    Fizure (PlanYard){" "}
+                  </p>
 
-                  <li>Writing reusable UI component to make work faster.</li>
+                  <li>
+                    Writing reusable UI component to make work faster.
+                  </li>
                   <li>Writing & testing components.</li>
                   <li>
-                    Working with team in pair programming to complete task
+                    Working with team in pair programming to complete
+                    task
                   </li>
                   <li>
-                    Managing production level code after multiple iteration.
+                    Managing production level code after multiple
+                    iteration.
                   </li>
                 </p>
               </div>
