@@ -19,6 +19,7 @@ import HTML from "../public/project/html.png";
 import KNOT from "../public/project/four.png";
 import Mern from "../public/project/mern.png";
 import Github from "../public/project/github.png";
+import Movie from "../public/project/movie.png";
 
 import styles from "../styles/pages/projects.module.css";
 
@@ -30,6 +31,8 @@ let optionsCursorTrueWithMargin = {
 
 export const ImgPath = (projectName) => {
   switch (projectName) {
+    case "Movie App":
+      return Movie;
     case "Knots":
       return KNOT;
     case "MERN Stack":
