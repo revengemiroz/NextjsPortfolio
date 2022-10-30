@@ -8,14 +8,5 @@ import "@fortawesome/fontawesome-free/js/brands";
 import styles from "../../styles/components/_OnTrigger.module.css";
 
 export const OnProjectPageTrigger = ({ description }) => {
-  if (!description) return null;
-
-  return (
-    <div className={styles.projectContainer}>
-      <span class="fas fa-bookmark blackiconcolor"></span>
-      <div className={styles.description}>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
+  return <div>{description}</div>;
 };
