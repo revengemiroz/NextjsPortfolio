@@ -8,5 +8,7 @@ import "@fortawesome/fontawesome-free/js/brands";
 import styles from "../../styles/components/_OnTrigger.module.css";
 
 export const OnProjectPageTrigger = ({ description }) => {
-  return <div>{description}</div>;
+  return (
+    <div className={styles.projectDescription}>{description}</div>
+  );
 };
