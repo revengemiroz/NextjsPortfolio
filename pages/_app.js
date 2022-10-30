@@ -12,8 +12,23 @@ import "../styles/base/_typography.css";
 import "../styles/components/_header.css";
 import "../styles/components/_footer.css";
 
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider
+} from "@apollo/client";
+
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  const client = new ApolloClient({
+    uri: "https://api.hashnode.com/",
+    cache: new InMemoryCache()
+  });
+
+  return (
+    <ApolloProvider client={client}>
+      <Component {...pageProps} />
+    </ApolloProvider>
+  );
 }
 
 export default MyApp;

@@ -11,13 +11,19 @@ export default function Home() {
     <Layout page="home" title="Home | Miroz Devkota" image={Giraffe}>
       <Header />
       <div className={styles.container}>
-        <img className={styles.profilePic} src={Giraffe} alt="ProfilePic"></img>
+        <img
+          className={styles.profilePic}
+          src={Giraffe}
+          alt="ProfilePic"
+        ></img>
 
         <p className={styles.name}>Miroz Devkota</p>
 
         <p className={styles.description}>
           Web designer and developer from{" "}
-          <a href="https://www.youtube.com/watch?v=0crqE92gjis&t=4s">Nepal.</a>
+          <a href="https://www.youtube.com/watch?v=0crqE92gjis&t=4s">
+            Nepal.
+          </a>
         </p>
       </div>
 

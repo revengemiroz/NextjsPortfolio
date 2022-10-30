@@ -1,0 +1,8 @@
+query post($slug: String!) {
+  post(slug: $slug, hostname: "revengemiroz") {
+    tags {
+      name
+      logo
+    }
+  }
+}
