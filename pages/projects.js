@@ -1,6 +1,5 @@
 import React from "react";
-import Zoom from "react-medium-image-zoom";
-import ReactHover, { Trigger, Hover } from "react-hover";
+import ReactTooltip from "react-tooltip";
 
 import "@fortawesome/fontawesome-free/js/fontawesome";
 import "@fortawesome/fontawesome-free/js/solid";
@@ -20,17 +19,14 @@ import KNOT from "../public/project/four.png";
 import Mern from "../public/project/mern.png";
 import Github from "../public/project/github.png";
 import Movie from "../public/project/movie.png";
+import Project_Shelf from "../public/project/Project-Shelf.png";
 
 import styles from "../styles/pages/projects.module.css";
 
-let optionsCursorTrueWithMargin = {
-  followCursor: true,
-  shiftX: -50,
-  shiftY: -340
-};
-
 export const ImgPath = (projectName) => {
   switch (projectName) {
+    case "Project Shelf":
+      return Project_Shelf;
     case "Movie App":
       return Movie;
     case "Knots":
@@ -115,48 +111,51 @@ function projects(props) {
 
         <div className={styles.projectCollection}>
           {projectsCollection.map((project) => (
-            <div key={project.id} className={styles.project}>
-              <div className={styles.imgContainer}>
-                <Zoom>
+            <>
+              <ReactTooltip
+                id={String(project.id)}
+                className="tooltip"
+                effect="float"
+              >
+                <OnProjectPageTrigger
+                  description={project.description}
+                ></OnProjectPageTrigger>
+              </ReactTooltip>
+              <div key={project.id} className={styles.project}>
+                <div className={styles.imgContainer}>
                   <img
+                    data-tip
+                    data-for={String(project.id)}
                     alt={project.project_name}
                     src={ImgPath(project.project_name)}
                     className={styles.project__thumbnail}
                   ></img>
-                </Zoom>
-              </div>
-              <div className={styles.titleContainer}>
-                <span className={styles.number}>
-                  No.<span>{project.id}</span>
-                </span>
-                {width >= 650 ? (
-                  <ReactHover options={optionsCursorTrueWithMargin}>
-                    <Trigger type="trigger">
-                      <div>
-                        <h4>{project.project_name}</h4>
-                      </div>
-                    </Trigger>
-                    <Hover type="hover">
-                      <OnProjectPageTrigger
-                        description={project.description}
-                      ></OnProjectPageTrigger>
-                    </Hover>
-                  </ReactHover>
-                ) : (
-                  <div>
-                    <h4>{project.project_name}</h4>
-                  </div>
-                )}
+                </div>
                 <a
-                  className={styles.link}
                   href={project.project_link}
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <span className="fas fa-external-link-alt"></span>
+                  <div className={styles.titleContainer}>
+                    <span className={styles.number}>
+                      No.<span>{project.id}</span>
+                    </span>
+
+                    <div>
+                      <h4>{project.project_name}</h4>
+                    </div>
+
+                    <span className="fas fa-external-link-alt"></span>
+                  </div>
                 </a>
+
+                <div className={styles.tagsContainer}>
+                  {project.tags.map((tag) => {
+                    return <span className={styles.tags}>{tag}</span>;
+                  })}
+                </div>
               </div>
-            </div>
+            </>
           ))}
         </div>
       </div>

@@ -1,9 +1,11 @@
 .container {
-  width: 610px;
+  width: 480px;
   height: 100%;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 7px;
 }
 
 .container:hover {
@@ -14,7 +16,7 @@
 .imgContainer {
   width: 100%;
   min-height: 200px;
-  max-height: 300px;
+  max-height: 230px;
   display: block;
   overflow: hidden;
 }
@@ -27,35 +29,29 @@
 }
 
 .details {
-  padding: 20px;
-}
-
-.details {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  padding: 10px;
 }
 
 .title {
-  font-size: 35px;
-  font-weight: 600;
-  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 700;
   padding: 0 !important;
-  line-height: 40px;
   color: #333;
+  margin-top: 10px;
 }
 
 .desc {
-  color: #999;
+  color: #333333;
   overflow: hidden;
   width: 100%;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  font-weight: 400;
 }
 
 .tagsContainer {

@@ -21,13 +21,11 @@ function blog(props) {
   return (
     <Layout title="Blog | Miroz Devkota">
       <Header />
-
       <div className={styles.ghost}>
         <span>
           <strong>ఠ_ఠ</strong>
         </span>
       </div>
-
       <div className={styles.containers}>
         <>
           {!loading ? (
