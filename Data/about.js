@@ -166,7 +166,7 @@ export const movies_left = [
 
 export const movies_right = [
   {
-    id: 1,
+    id: 16,
     movie_name: "Joker",
     movie_link: "https://www.themoviedb.org/movie/475557-joker",
     img_path:
@@ -175,7 +175,7 @@ export const movies_right = [
       "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure."
   },
   {
-    id: 2,
+    id: 17,
     movie_name: "Greyhound",
     movie_link: "https://www.themoviedb.org/movie/516486-greyhound",
     img_path:
@@ -184,7 +184,7 @@ export const movies_right = [
       "A first-time captain leads a convoy of allied ships carrying thousands of soldiers across the treacherous waters of the “Black Pit” to the front lines of WW2. With no air cover protection for 5 days, the captain and his convoy must battle the surrounding enemy Nazi U-boats in order to give the allies a chance to win the war."
   },
   {
-    id: 3,
+    id: 18,
     movie_name: "Catch Me If You Can",
     movie_link:
       "https://www.themoviedb.org/movie/640-catch-me-if-you-can",
@@ -194,7 +194,7 @@ export const movies_right = [
       "A true story about Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars worth of checks as a Pan Am pilot, doctor, and legal prosecutor. An FBI agent makes it his mission to put him behind bars. But Frank not only eludes capture, he revels in the pursuit."
   },
   {
-    id: 4,
+    id: 19,
     movie_name: "Escape Room",
     movie_link: "https://www.themoviedb.org/movie/522681-escape-room",
     img_path:
@@ -203,7 +203,7 @@ export const movies_right = [
       "Six strangers find themselves in circumstances beyond their control, and must use their wits to survive."
   },
   {
-    id: 5,
+    id: 20,
     movie_name: "Annabelle Comes Home",
     movie_link:
       "https://www.themoviedb.org/movie/521029-annabelle-comes-home",
@@ -213,7 +213,7 @@ export const movies_right = [
       "Determined to keep Annabelle from wreaking more havoc, demonologists Ed and Lorraine Warren bring the possessed doll to the locked artifacts room in their home, placing her “safely” behind sacred glass and enlisting a priest’s holy blessing. But an unholy night of horror awaits as Annabelle awakens the evil spirits in the room, who all set their sights on a new target—the Warrens ten-year-old daughter, Judy, and her friends."
   },
   {
-    id: 6,
+    id: 21,
     movie_name: "The Nun",
     movie_link: "https://www.themoviedb.org/movie/439079-the-nun",
     img_path:
@@ -222,7 +222,7 @@ export const movies_right = [
       "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate. Together they uncover the order’s unholy secret. Risking not only their lives but their faith and their very souls, they confront a malevolent force in the form of the same demonic nun that first terrorized audiences in “The Conjuring 2” as the abbey becomes a horrific battleground between the living and the damned."
   },
   {
-    id: 7,
+    id: 22,
     movie_name: "The Hunt",
     movie_link: "https://www.themoviedb.org/movie/514847-the-hunt",
     img_path:
@@ -231,7 +231,7 @@ export const movies_right = [
       "Twelve strangers wake up in a clearing. They dont know where they are—or how they got there. In the shadow of a dark internet conspiracy theory, ruthless elitists gather at a remote location to hunt humans for sport. But their master plan is about to be derailed when one of the hunted turns the tables on her pursuers."
   },
   {
-    id: 8,
+    id: 23,
     movie_name: "Underwater",
     movie_link: "https://www.themoviedb.org/movie/443791-underwater",
     img_path:
@@ -240,7 +240,7 @@ export const movies_right = [
       "After an earthquake destroys their underwater station, six researchers must navigate two miles along the dangerous, unknown depths of the ocean floor to make it to safety in a race against time."
   },
   {
-    id: 9,
+    id: 24,
     movie_name: "Hunter Killer",
     movie_link:
       "https://www.themoviedb.org/movie/399402-hunter-killer",
@@ -250,7 +250,7 @@ export const movies_right = [
       "Captain Glass of the USS Arkansas discovers that a coup détat is taking place in Russia, so he and his crew join an elite group working on the ground to prevent a war."
   },
   {
-    id: 10,
+    id: 25,
     movie_name: "Fantasy Island",
     movie_link:
       "https://www.themoviedb.org/movie/539537-fantasy-island",
@@ -260,7 +260,7 @@ export const movies_right = [
       "A group of contest winners arrive at an island hotel to live out their dreams, only to find themselves trapped in nightmare scenarios."
   },
   {
-    id: 11,
+    id: 26,
     movie_name: "Ready or Not",
     movie_link:
       "https://www.themoviedb.org/movie/567609-ready-or-not",
@@ -270,7 +270,7 @@ export const movies_right = [
       "A brides wedding night takes a sinister turn when her eccentric new in-laws force her to take part in a terrifying game."
   },
   {
-    id: 12,
+    id: 27,
     movie_name: "Doctor Sleept",
     movie_link:
       "https://www.themoviedb.org/movie/501170-doctor-sleep",
@@ -280,7 +280,7 @@ export const movies_right = [
       "Still irrevocably scarred by the trauma he endured as a child at the Overlook, Dan Torrance has fought to find some semblance of peace. But that peace is shattered when he encounters Abra, a courageous teenager with her own powerful extrasensory gift, known as the shine. Instinctively recognising that Dan shares her power, Abra has sought him out, desperate for his help against the merciless Rose the Hat and her followers."
   },
   {
-    id: 13,
+    id: 28,
     movie_name: "Pet Sematary",
     movie_link:
       "https://www.themoviedb.org/movie/157433-pet-sematary",
@@ -290,7 +290,7 @@ export const movies_right = [
       "Dr. Louis Creed and his wife, Rachel, move from Boston to Ludlow, in rural Maine, with their two young children. Hidden in the woods near the new family home, Ellie, their eldest daughter, discovers a mysterious cemetery where the pets of community members are buried."
   },
   {
-    id: 14,
+    id: 29,
     movie_name: "The Curse of La Llorona",
     movie_link:
       "https://www.themoviedb.org/movie/480414-the-children",

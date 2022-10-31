@@ -39,10 +39,8 @@ function Header() {
 
           <li>
             <span>
-              <Link href="/cv">
-                <a ref="noopener" target="_blank">
-                  CV
-                </a>
+              <Link href="/cv.pdf" target="_self" download>
+                <a>CV</a>
               </Link>
             </span>
           </li>

@@ -1,5 +1,5 @@
 import React from "react";
-import ReactHover, { Trigger, Hover } from "react-hover";
+import ReactTooltip from "react-tooltip";
 
 import windowsize from "../components/windowsize";
 
@@ -75,22 +75,30 @@ function about(props) {
                     </a>
                   </span>
                 ) : (
-                  <ReactHover options={optionsCursorTrueWithMargin}>
-                    <Trigger type="trigger">
-                      <span>
-                        <a href={movie.movie_link} target="_blank">
-                          {movie.movie_name}
-                        </a>
-                      </span>
-                    </Trigger>
-                    <Hover type="hover">
+                  <>
+                    <ReactTooltip
+                      id={String(movie.id)}
+                      className="tooltipMovies"
+                      effect="float"
+                      delayShow={200}
+                    >
                       <OnTrigger
                         img={movie.img_path}
                         movietitle={movie.movie_name}
                         description={movie.description}
                       ></OnTrigger>
-                    </Hover>
-                  </ReactHover>
+                    </ReactTooltip>
+                    <span>
+                      <a
+                        data-tip
+                        data-for={String(movie.id)}
+                        href={movie.movie_link}
+                        target="_blank"
+                      >
+                        {movie.movie_name}
+                      </a>
+                    </span>
+                  </>
                 )}
               </li>
             ))}
@@ -106,22 +114,30 @@ function about(props) {
                     </a>
                   </span>
                 ) : (
-                  <ReactHover options={optionsCursorTrueWithMargin}>
-                    <Trigger type="trigger">
-                      <span>
-                        <a href={movie.movie_link} target="_blank">
-                          {movie.movie_name}
-                        </a>
-                      </span>
-                    </Trigger>
-                    <Hover type="hover">
+                  <>
+                    <ReactTooltip
+                      id={String(movie.id)}
+                      className="tooltipMovies"
+                      effect="float"
+                      delayShow={200}
+                    >
                       <OnTrigger
                         img={movie.img_path}
                         movietitle={movie.movie_name}
                         description={movie.description}
                       ></OnTrigger>
-                    </Hover>
-                  </ReactHover>
+                    </ReactTooltip>
+                    <span>
+                      <a
+                        data-tip
+                        data-for={String(movie.id)}
+                        href={movie.movie_link}
+                        target="_blank"
+                      >
+                        {movie.movie_name}
+                      </a>
+                    </span>
+                  </>
                 )}
               </li>
             ))}
@@ -141,22 +157,30 @@ function about(props) {
                       </a>
                     </span>
                   ) : (
-                    <ReactHover options={optionsCursorTrueWithMargin}>
-                      <Trigger type="trigger">
-                        <span>
-                          <a href={anime.anime_link} target="_blank">
-                            {anime.anime_name}
-                          </a>
-                        </span>
-                      </Trigger>
-                      <Hover type="hover">
+                    <>
+                      <ReactTooltip
+                        id={String(anime.id) + "anime"}
+                        className="tooltipMovies"
+                        effect="float"
+                        delayShow={200}
+                      >
                         <OnTrigger
                           img={anime.img_path}
                           movietitle={anime.anime_name}
                           description={anime.description}
                         ></OnTrigger>
-                      </Hover>
-                    </ReactHover>
+                      </ReactTooltip>
+                      <span>
+                        <a
+                          data-tip
+                          data-for={String(anime.id) + "anime"}
+                          href={anime.anime_link}
+                          target="_blank"
+                        >
+                          {anime.anime_name}
+                        </a>
+                      </span>
+                    </>
                   )}
                 </li>
               ))}
@@ -174,22 +198,30 @@ function about(props) {
                       </a>
                     </span>
                   ) : (
-                    <ReactHover options={optionsCursorTrueWithMargin}>
-                      <Trigger type="trigger">
-                        <span>
-                          <a href={anime.anime_link} target="_blank">
-                            {anime.anime_name}
-                          </a>
-                        </span>
-                      </Trigger>
-                      <Hover type="hover">
+                    <>
+                      <ReactTooltip
+                        id={String(anime.id) + "anime"}
+                        className="tooltipMovies"
+                        effect="float"
+                        delayShow={200}
+                      >
                         <OnTrigger
                           img={anime.img_path}
                           movietitle={anime.anime_name}
                           description={anime.description}
                         ></OnTrigger>
-                      </Hover>
-                    </ReactHover>
+                      </ReactTooltip>
+                      <span>
+                        <a
+                          data-tip
+                          data-for={String(anime.id) + "anime"}
+                          href={anime.anime_link}
+                          target="_blank"
+                        >
+                          {anime.anime_name}
+                        </a>
+                      </span>
+                    </>
                   )}
                 </li>
               ))}

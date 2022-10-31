@@ -12,14 +12,14 @@ function OnTrigger({ img, description, movietitle }) {
   }
 
   return (
-    <div className={styles.container}>
-      <div className={styles.imgContainer}>
+    <div className={styles.moviesContainer}>
+      <div className={styles.moviesImgContainer}>
         <img src={img} alt={movietitle}></img>
       </div>
 
-      <div className={styles.description}>
-        <p>{movietitle}</p>
-        <p>{description}</p>
+      <div className={styles.moviesDescription}>
+        <p className={styles.movieTitle}>{movietitle}</p>
+        <p className={styles.movieDesc}>{description}</p>
       </div>
     </div>
   );

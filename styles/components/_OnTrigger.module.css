@@ -6,7 +6,6 @@
   background-color: white;
   box-shadow: -10px -10px 30px 4px rgba(0, 0, 0, 0.1),
     10px 10px 30px 4px rgba(45, 78, 255, 0.15);
-  animation: slide 0.1s ease-in;
 }
 
 .imgContainer img {
@@ -15,7 +14,6 @@
   display: block;
   border-radius: 7px;
   object-fit: cover;
-  animation: imgs 0.3s ease-in;
 }
 
 .projectDescription {
@@ -27,38 +25,42 @@
   line-height: 24px;
 }
 
-@keyframes slide {
-  0% {
-    width: 600px;
-  }
+/* movies on hover container */
 
-  100% {
-    width: 600px;
-  }
+.moviesContainer {
+  border-radius: 10px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  gap: 20px;
+  box-shadow: -10px -10px 30px 4px rgba(0, 0, 0, 0.1),
+    10px 10px 30px 4px rgba(45, 78, 255, 0.15);
+  animation: slide 0.1s ease-in;
 }
 
-@keyframes show {
-  0% {
-    height: 0%;
-
-    opacity: 0;
-  }
-
-  100% {
-    height: 100%;
-
-    opacity: 1;
-  }
+.moviesImgContainer {
+  min-width: 35%;
 }
 
-@keyframes imgs {
-  0% {
-    height: 0%;
-    width: 0%;
-    border-radius: 10px;
-  }
-  100% {
-    border-radius: 0%;
-    width: 100%;
-  }
+.moviesImgContainer img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.moviesDescription {
+  padding: 10px 10px 10px 0px;
+}
+
+.movieTitle {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.movieDesc {
+  font-size: 18px;
+  line-height: 20px;
 }
