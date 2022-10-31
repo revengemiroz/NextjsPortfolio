@@ -107,6 +107,11 @@ function projects(props) {
             MongoDB
           </a>
           .
+          <br />
+          <br />
+          This website itself was built using Next Js, GraphQl, Apollo
+          Client and Css Modules. You can see my journey as a front
+          end developer by the project that I have done below.
         </p>
 
         <div className={styles.projectCollection}>
