@@ -25,6 +25,8 @@ import styles from "../styles/pages/projects.module.css";
 
 export const ImgPath = (projectName) => {
   switch (projectName) {
+    case "Click Bored Button":
+      return "https://gr25i6ha55.ufs.sh/f/hu3mOcBeSVI2Os0EkyL0qj7MFGdSYKCIaWnVlBePXg2QczOA";
     case "Project Shelf":
       return Project_Shelf;
     case "Movie App":

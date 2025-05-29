@@ -1,5 +1,18 @@
 export const projectsCollection = [
   {
+    id: 11,
+    project_name: "Click Bored Button",
+    project_link: "https://www.clickboredbutton.com/",
+    description:
+      "Showcase your project to other users. You can create your own project share them with others and see others peoples project.",
+    tags: [
+      "React Js",
+      "Next Js",
+      "Tailwind Css",
+      
+    ]
+  },
+  {
     id: 1,
     project_name: "Project Shelf",
     project_link: "https://project-shelf-dev.netlify.app/",
